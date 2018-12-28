@@ -1,0 +1,62 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Optokoppler_Schmittrigger_out
+#
+DEF Optokoppler_Schmittrigger_out U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Optokoppler_Schmittrigger_out" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -100 450 -400 0 1 0 N
+X Anode 1 -400 -150 200 R 50 50 1 1 B
+X Cathode 2 -400 -250 200 R 50 50 1 1 B
+X NC 3 -400 -350 200 R 50 50 1 1 N
+X out 4 650 -350 200 L 50 50 1 1 O
+X GND 5 650 -250 200 L 50 50 1 1 w
+X Vcc 6 650 -150 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# SW_DIP_x05-Switch
+#
+DEF SW_DIP_x05-Switch SW 0 0 Y N 1 F N
+F0 "SW" 0 350 50 H V C CNN
+F1 "SW_DIP_x05-Switch" 0 -350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW?DIP?x5*
+$ENDFPLIST
+DRAW
+C -80 -200 20 0 0 0 N
+C -80 -100 20 0 0 0 N
+C -80 0 20 0 0 0 N
+C -80 100 20 0 0 0 N
+C -80 200 20 0 0 0 N
+C 80 -200 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 0 20 0 0 0 N
+C 80 100 20 0 0 0 N
+C 80 200 20 0 0 0 N
+S -150 300 150 -300 0 1 10 f
+P 2 0 0 0 -60 -194 93 -153 N
+P 2 0 0 0 -60 -94 93 -53 N
+P 2 0 0 0 -60 5 93 46 N
+P 2 0 0 0 -60 105 93 146 N
+P 2 0 0 0 -60 205 93 246 N
+X ~ 1 -300 200 200 R 50 50 1 1 P
+X ~ 10 300 200 200 L 50 50 1 1 P
+X ~ 2 -300 100 200 R 50 50 1 1 P
+X ~ 3 -300 0 200 R 50 50 1 1 P
+X ~ 4 -300 -100 200 R 50 50 1 1 P
+X ~ 5 -300 -200 200 R 50 50 1 1 P
+X ~ 6 300 -200 200 L 50 50 1 1 P
+X ~ 7 300 -100 200 L 50 50 1 1 P
+X ~ 8 300 0 200 L 50 50 1 1 P
+X ~ 9 300 100 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
