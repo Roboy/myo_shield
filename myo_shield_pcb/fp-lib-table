@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name custom_lib)(type KiCad)(uri /home/letrend/workspace/myo_shield/kicad_db/custom_modules/custom_lib.pretty)(options "")(descr ""))
+  (lib (name AON7804)(type Legacy)(uri /home/letrend/workspace/myo_shield/kicad_db/custom_modules/AON7804.mod)(options "")(descr ""))
 )

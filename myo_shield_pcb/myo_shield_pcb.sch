@@ -232,16 +232,6 @@ Text Label 6000 3600 0    50   ~ 0
 SCL_2
 Text Label 6000 3500 0    50   ~ 0
 SCL_3
-Text Label 3700 2000 2    50   ~ 0
-SW_3
-Text Label 3700 2100 2    50   ~ 0
-SW_1
-Text Label 4200 2100 0    50   ~ 0
-SW_0
-Text Label 4200 2000 0    50   ~ 0
-SW_2
-Text Label 4200 1900 0    50   ~ 0
-SW_4
 Text Label 3700 4900 2    50   ~ 0
 MOSI_0
 Text Label 3700 5000 2    50   ~ 0
@@ -468,43 +458,6 @@ Text Label 9150 2600 2    50   ~ 0
 SCL_3
 Text Label 9150 2700 2    50   ~ 0
 3.3V
-$Comp
-L Switch:SW_DIP_x05 SW1
-U 1 1 5C0A7D61
-P 8300 3600
-F 0 "SW1" H 8300 3133 50  0000 C CNN
-F 1 "DIP_SWITCH" H 8300 3224 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_DIP_x5_W8.61mm_Slide_LowProfile" H 8300 3600 50  0001 C CNN
-F 3 "" H 8300 3600 50  0001 C CNN
-	1    8300 3600
-	-1   0    0    1   
-$EndComp
-Text Label 8700 3400 0    50   ~ 0
-GND
-Wire Wire Line
-	8700 3400 8600 3400
-Wire Wire Line
-	8600 3400 8600 3500
-Connection ~ 8600 3400
-Wire Wire Line
-	8600 3500 8600 3600
-Connection ~ 8600 3500
-Wire Wire Line
-	8600 3600 8600 3700
-Connection ~ 8600 3600
-Wire Wire Line
-	8600 3700 8600 3800
-Connection ~ 8600 3700
-Text Label 8000 3400 2    50   ~ 0
-SW_0
-Text Label 8000 3500 2    50   ~ 0
-SW_1
-Text Label 8000 3600 2    50   ~ 0
-SW_2
-Text Label 8000 3700 2    50   ~ 0
-SW_3
-Text Label 8000 3800 2    50   ~ 0
-SW_4
 Text Label 8100 4250 2    50   ~ 0
 power_sense_n
 $Comp
@@ -528,7 +481,7 @@ U 1 1 5C0A95AE
 P 6500 4250
 F 0 "J19" H 6579 4242 50  0000 L CNN
 F 1 "FAN" H 6579 4151 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 6500 4250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6500 4250 50  0001 C CNN
 F 3 "~" H 6500 4250 50  0001 C CNN
 	1    6500 4250
 	1    0    0    -1  
@@ -537,14 +490,276 @@ Text Label 6300 4250 2    50   ~ 0
 GND
 Text Label 6300 4350 2    50   ~ 0
 5V
-NoConn ~ 5500 2900
-NoConn ~ 5500 3000
-NoConn ~ 5500 3100
-NoConn ~ 5500 3200
 NoConn ~ 5500 3400
 NoConn ~ 6000 3400
-NoConn ~ 6000 3200
+$Comp
+L AON7804:AON7804 Q1
+U 1 1 5C64FD41
+P 925 2275
+F 0 "Q1" H 1132 2275 50  0000 L CNN
+F 1 "AON7804" H 925 2275 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 925 2275 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 925 2275 50  0001 L BNN
+F 4 "None" H 925 2275 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 925 2275 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 925 2275 50  0001 L BNN "Field6"
+F 7 "AON7804" H 925 2275 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 925 2275 50  0001 L BNN "Field8"
+	1    925  2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L AON7804:AON7804 Q1
+U 2 1 5C64FE4A
+P 925 3075
+F 0 "Q1" H 1133 3075 50  0000 L CNN
+F 1 "AON7804" H 925 3075 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 925 3075 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 925 3075 50  0001 L BNN
+F 4 "None" H 925 3075 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 925 3075 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 925 3075 50  0001 L BNN "Field6"
+F 7 "AON7804" H 925 3075 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 925 3075 50  0001 L BNN "Field8"
+	2    925  3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L AON7804:AON7804 Q2
+U 1 1 5C64FFD7
+P 1650 2325
+F 0 "Q2" H 1857 2325 50  0000 L CNN
+F 1 "AON7804" H 1650 2325 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 1650 2325 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 1650 2325 50  0001 L BNN
+F 4 "None" H 1650 2325 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 1650 2325 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 1650 2325 50  0001 L BNN "Field6"
+F 7 "AON7804" H 1650 2325 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 1650 2325 50  0001 L BNN "Field8"
+	1    1650 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L AON7804:AON7804 Q2
+U 2 1 5C64FFE2
+P 1650 3125
+F 0 "Q2" H 1858 3125 50  0000 L CNN
+F 1 "AON7804" H 1650 3125 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 1650 3125 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 1650 3125 50  0001 L BNN
+F 4 "None" H 1650 3125 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 1650 3125 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 1650 3125 50  0001 L BNN "Field6"
+F 7 "AON7804" H 1650 3125 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 1650 3125 50  0001 L BNN "Field8"
+	2    1650 3125
+	1    0    0    -1  
+$EndComp
+$Comp
+L AON7804:AON7804 Q3
+U 1 1 5C6500BA
+P 2325 2325
+F 0 "Q3" H 2532 2325 50  0000 L CNN
+F 1 "AON7804" H 2325 2325 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 2325 2325 50  0001 L BNN
+F 3 "DFN-8 Alpha &amp; Omega Semiconductor" H 2325 2325 50  0001 L BNN
+F 4 "None" H 2325 2325 50  0001 L BNN "Field4"
+F 5 "Unavailable" H 2325 2325 50  0001 L BNN "Field5"
+F 6 "Mosfet 2n-Ch 30v 9a 8dfn" H 2325 2325 50  0001 L BNN "Field6"
+F 7 "AON7804" H 2325 2325 50  0001 L BNN "Field7"
+F 8 "Alpha &" H 2325 2325 50  0001 L BNN "Field8"
+	1    2325 2325
+	1    0    0    -1  
+$EndComp
+Text Label 3700 2000 2    50   ~ 0
+FAN1
+Text Label 3700 2100 2    50   ~ 0
+FAN3
+Text Label 6000 3000 0    50   ~ 0
+FAN5
+Text Label 4200 1900 0    50   ~ 0
+FAN0
+Text Label 4200 2000 0    50   ~ 0
+FAN2
+Text Label 4200 2100 0    50   ~ 0
+FAN4
+NoConn ~ 5500 3200
+NoConn ~ 6025 3200
+$Comp
+L Connector_Generic:Conn_01x04 J26
+U 1 1 5C650CB0
+P 4500 1250
+F 0 "J26" H 4579 1242 50  0000 L CNN
+F 1 "MYO_SPI_5" H 4579 1151 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 4500 1250 50  0001 C CNN
+F 3 "~" H 4500 1250 50  0001 C CNN
+	1    4500 1250
+	1    0    0    -1  
+$EndComp
+Text Label 5500 2900 2    50   ~ 0
+MOSI_5
+Text Label 6000 2900 0    50   ~ 0
+MISO_5
+Text Label 5500 3000 2    50   ~ 0
+SCK_5
+Text Label 4300 1150 2    50   ~ 0
+MOSI_5
+Text Label 4300 1250 2    50   ~ 0
+MISO_5
+Text Label 4300 1350 2    50   ~ 0
+SCK_5
+Text Label 4300 1450 2    50   ~ 0
+GND
+Text Label 725  2375 2    50   ~ 0
+FAN0
+Text Label 1450 2425 2    50   ~ 0
+FAN2
+Text Label 2125 2425 2    50   ~ 0
+FAN4
+Text Label 725  3175 2    50   ~ 0
+FAN1
+Text Label 1450 3225 2    50   ~ 0
+FAN3
+$Comp
+L custom:Wago_SMD_2 J23
+U 1 1 5C60B85A
+P 1550 4475
+F 0 "J23" H 1631 4862 60  0000 C CNN
+F 1 "Wago_SMD_2" H 1631 4756 60  0000 C CNN
+F 2 "custom_lib:Wago_2060_2_SMD" H 1450 4525 60  0001 C CNN
+F 3 "" H 1450 4525 60  0001 C CNN
+	1    1550 4475
+	1    0    0    -1  
+$EndComp
+Text Label 2000 4575 0    50   ~ 0
+24V
+Text Label 2000 4375 0    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 FAN0
+U 1 1 5C60B928
+P 1050 800
+F 0 "FAN0" H 1129 792 50  0000 L CNN
+F 1 "FAN" H 1129 701 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1050 800 50  0001 C CNN
+F 3 "~" H 1050 800 50  0001 C CNN
+	1    1050 800 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 FAN2
+U 1 1 5C60BA45
+P 1500 850
+F 0 "FAN2" H 1579 842 50  0000 L CNN
+F 1 "FAN" H 1579 751 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1500 850 50  0001 C CNN
+F 3 "~" H 1500 850 50  0001 C CNN
+	1    1500 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 FAN4
+U 1 1 5C60BAD7
+P 2075 875
+F 0 "FAN4" H 2154 867 50  0000 L CNN
+F 1 "FAN" H 2154 776 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2075 875 50  0001 C CNN
+F 3 "~" H 2075 875 50  0001 C CNN
+	1    2075 875 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 FAN3
+U 1 1 5C60BBA9
+P 1525 1375
+F 0 "FAN3" H 1604 1367 50  0000 L CNN
+F 1 "FAN" H 1604 1276 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1525 1375 50  0001 C CNN
+F 3 "~" H 1525 1375 50  0001 C CNN
+	1    1525 1375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 FAN1
+U 1 1 5C60BC0F
+P 950 1375
+F 0 "FAN1" H 1029 1367 50  0000 L CNN
+F 1 "FAN" H 1029 1276 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 950 1375 50  0001 C CNN
+F 3 "~" H 950 1375 50  0001 C CNN
+	1    950  1375
+	0    -1   -1   0   
+$EndComp
+Text Label 1050 1575 3    50   ~ 0
+24V
+Text Label 1150 1000 3    50   ~ 0
+24V
+Text Label 1625 1575 3    50   ~ 0
+24V
+Text Label 1600 1050 3    50   ~ 0
+24V
+Text Label 2175 1075 3    50   ~ 0
+24V
+Wire Wire Line
+	1050 1000 1050 1125
+Wire Wire Line
+	1050 1125 1275 1125
+Wire Wire Line
+	1275 1125 1275 1975
+Wire Wire Line
+	1275 1975 1025 1975
+Wire Wire Line
+	950  1575 950  1975
+Wire Wire Line
+	950  1975 675  1975
+Wire Wire Line
+	675  1975 675  2775
+Wire Wire Line
+	675  2775 1025 2775
+Wire Wire Line
+	1500 1050 1500 1225
+Wire Wire Line
+	1500 1225 1450 1225
+Wire Wire Line
+	1450 1225 1450 2025
+Wire Wire Line
+	1450 2025 1750 2025
+Wire Wire Line
+	2425 1175 2075 1175
+Wire Wire Line
+	2075 1175 2075 1075
+Text Label 2425 2625 2    50   ~ 0
+GND
+Text Label 1750 2625 2    50   ~ 0
+GND
+Text Label 1025 2575 2    50   ~ 0
+GND
+Text Label 1025 3375 2    50   ~ 0
+GND
+Text Label 1750 3425 2    50   ~ 0
+GND
+Wire Wire Line
+	2425 1175 2425 2025
+Connection ~ 2425 2025
+Wire Wire Line
+	2425 2025 2425 2125
+Wire Wire Line
+	1750 2125 1750 2025
+Connection ~ 1750 2025
+Wire Wire Line
+	1025 2075 1025 1975
+Connection ~ 1025 1975
+Wire Wire Line
+	1025 2875 1025 2775
+Connection ~ 1025 2775
+Wire Wire Line
+	1750 2825 1525 2825
+Wire Wire Line
+	1525 2825 1525 1575
+Wire Wire Line
+	1750 2925 1750 2825
+Connection ~ 1750 2825
 NoConn ~ 6000 3100
-NoConn ~ 6000 3000
-NoConn ~ 6000 2900
+NoConn ~ 5500 3100
 $EndSCHEMATC

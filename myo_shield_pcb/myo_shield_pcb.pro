@@ -1,4 +1,4 @@
-update=Fr 07 Dez 2018 14:48:36 CET
+update=Mo 11 Feb 2019 02:12:15 CET
 version=1
 last_client=kicad
 [general]
@@ -60,6 +60,28 @@ SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
+Name=24V
+Clearance=0.2
+TrackWidth=1
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=FAN
+Clearance=0.2
+TrackWidth=0.4
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
 Name=POWER
 Clearance=0.2
 TrackWidth=0.45
