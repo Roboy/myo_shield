@@ -243,21 +243,21 @@ Text Label 3700 3800 2    50   ~ 0
 MISO_0
 Text Label 4200 3700 0    50   ~ 0
 SCK_0
-Text Label 3700 2500 2    50   ~ 0
-SS_0_0
-Text Label 3700 2600 2    50   ~ 0
-SS_0_1
-Text Label 3700 2700 2    50   ~ 0
-SS_0_2
-Text Label 3700 2800 2    50   ~ 0
-SS_0_3
-Text Label 3700 2900 2    50   ~ 0
-SS_0_4
-Text Label 3700 3000 2    50   ~ 0
-SS_0_5
-Text Label 3700 3100 2    50   ~ 0
-SS_0_6
 Text Label 3700 3200 2    50   ~ 0
+SS_0_0
+Text Label 3700 3100 2    50   ~ 0
+SS_0_1
+Text Label 3700 3000 2    50   ~ 0
+SS_0_2
+Text Label 3700 2900 2    50   ~ 0
+SS_0_3
+Text Label 3700 2800 2    50   ~ 0
+SS_0_4
+Text Label 3700 2700 2    50   ~ 0
+SS_0_5
+Text Label 3700 2600 2    50   ~ 0
+SS_0_6
+Text Label 3700 2500 2    50   ~ 0
 SS_0_7
 Text Label 4200 2500 0    50   ~ 0
 PWM_0
@@ -888,15 +888,13 @@ Wire Wire Line
 	9975 5250 10400 5250
 Wire Wire Line
 	10400 5725 10225 5725
-NoConn ~ 6000 3400
-NoConn ~ 5500 3400
 Text Label 3700 2000 2    50   ~ 0
 SCL_7
 Text Label 3700 3600 2    50   ~ 0
 SCL_6
 Text Label 3700 3500 2    50   ~ 0
 SCL_5
-Text Label 3700 3400 2    50   ~ 0
+Text Label 6000 3400 0    50   ~ 0
 SCL_4
 Text Label 4200 2000 0    50   ~ 0
 SDA_7
@@ -904,7 +902,7 @@ Text Label 4200 3600 0    50   ~ 0
 SDA_6
 Text Label 4200 3500 0    50   ~ 0
 SDA_5
-Text Label 4200 3400 0    50   ~ 0
+Text Label 5500 3400 2    50   ~ 0
 SDA_4
 $Comp
 L Connector_Generic:Conn_02x09_Odd_Even J23
@@ -927,4 +925,6 @@ NoConn ~ 4200 2300
 NoConn ~ 3700 2300
 NoConn ~ 3700 2200
 NoConn ~ 3700 2100
+NoConn ~ 4200 3400
+NoConn ~ 3700 3400
 $EndSCHEMATC
