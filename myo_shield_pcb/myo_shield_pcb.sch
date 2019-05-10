@@ -20,7 +20,7 @@ U 1 1 5C07E9D3
 P 4000 2900
 F 0 "J3" H 4050 1675 50  0000 C CNN
 F 1 "GPIO_1" H 4050 1766 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 4000 2900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4000 2900 50  0001 C CNN
 F 3 "~" H 4000 2900 50  0001 C CNN
 	1    4000 2900
 	-1   0    0    1   
@@ -31,7 +31,7 @@ U 1 1 5C07EA77
 P 5700 2800
 F 0 "J6" H 5750 3917 50  0000 C CNN
 F 1 "GPIO_0" H 5750 3826 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 5700 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5700 2800 50  0001 C CNN
 F 3 "~" H 5700 2800 50  0001 C CNN
 	1    5700 2800
 	1    0    0    -1  
@@ -39,12 +39,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 5C0A5346
-P 3900 5000
-F 0 "J1" H 3979 4992 50  0000 L CNN
-F 1 "MYO_SPI_0" H 3979 4901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 3900 5000 50  0001 C CNN
-F 3 "~" H 3900 5000 50  0001 C CNN
-	1    3900 5000
+P 3725 5000
+F 0 "J1" H 3804 4992 50  0000 L CNN
+F 1 "MYO_SPI_0" H 3804 4901 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 3725 5000 50  0001 C CNN
+F 3 "~" H 3725 5000 50  0001 C CNN
+	1    3725 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -61,12 +61,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J7
 U 1 1 5C0A5488
-P 6100 5000
-F 0 "J7" H 6179 4992 50  0000 L CNN
-F 1 "MYO_SPI_2" H 6179 4901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 6100 5000 50  0001 C CNN
-F 3 "~" H 6100 5000 50  0001 C CNN
-	1    6100 5000
+P 6250 5025
+F 0 "J7" H 6329 5017 50  0000 L CNN
+F 1 "MYO_SPI_2" H 6329 4926 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 6250 5025 50  0001 C CNN
+F 3 "~" H 6250 5025 50  0001 C CNN
+	1    6250 5025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -75,7 +75,7 @@ U 1 1 5C0A54E6
 P 3900 6000
 F 0 "J2" H 3980 6042 50  0000 L CNN
 F 1 "MYO_SS_0" H 3980 5951 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x09_Pitch2.54mm" H 3900 6000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 3900 6000 50  0001 C CNN
 F 3 "~" H 3900 6000 50  0001 C CNN
 	1    3900 6000
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 5C0A5541
 P 5000 5800
 F 0 "J5" H 5080 5792 50  0000 L CNN
 F 1 "MYO_SS_1" H 5080 5701 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 5000 5800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 5000 5800 50  0001 C CNN
 F 3 "~" H 5000 5800 50  0001 C CNN
 	1    5000 5800
 	1    0    0    -1  
@@ -97,7 +97,7 @@ U 1 1 5C0A557F
 P 6100 5800
 F 0 "J8" H 6180 5792 50  0000 L CNN
 F 1 "MYO_SS_2" H 6180 5701 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 6100 5800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 6100 5800 50  0001 C CNN
 F 3 "~" H 6100 5800 50  0001 C CNN
 	1    6100 5800
 	1    0    0    -1  
@@ -233,22 +233,20 @@ SCL_2
 Text Label 6000 3500 0    50   ~ 0
 SCL_3
 Text Label 3700 2000 2    50   ~ 0
-SW_3
+SCL_5
 Text Label 3700 2100 2    50   ~ 0
-SW_1
+SCL_4
 Text Label 4200 2100 0    50   ~ 0
-SW_0
+SDA_4
 Text Label 4200 2000 0    50   ~ 0
-SW_2
-Text Label 4200 1900 0    50   ~ 0
-SW_4
-Text Label 3700 4900 2    50   ~ 0
+SDA_5
+Text Label 3225 4900 2    50   ~ 0
 MOSI_0
-Text Label 3700 5000 2    50   ~ 0
+Text Label 3225 5000 2    50   ~ 0
 MISO_0
-Text Label 3700 5100 2    50   ~ 0
+Text Label 3225 5100 2    50   ~ 0
 SCK_0
-Text Label 3700 5200 2    50   ~ 0
+Text Label 3525 5200 2    50   ~ 0
 GND
 Text Label 3700 5600 2    50   ~ 0
 SS_0_0
@@ -268,11 +266,11 @@ Text Label 3700 6300 2    50   ~ 0
 SS_0_7
 Text Label 3700 6400 2    50   ~ 0
 SS_0_8
-Text Label 4800 4900 2    50   ~ 0
+Text Label 4500 4900 2    50   ~ 0
 MOSI_1
-Text Label 4800 5000 2    50   ~ 0
+Text Label 4500 5000 2    50   ~ 0
 MISO_1
-Text Label 4800 5100 2    50   ~ 0
+Text Label 4500 5100 2    50   ~ 0
 SCK_1
 Text Label 4800 5200 2    50   ~ 0
 GND
@@ -288,13 +286,13 @@ Text Label 4800 6000 2    50   ~ 0
 SS_1_4
 Text Label 4800 6100 2    50   ~ 0
 SS_1_5
-Text Label 5900 4900 2    50   ~ 0
+Text Label 5750 4925 2    50   ~ 0
 MOSI_2
-Text Label 5900 5000 2    50   ~ 0
+Text Label 5750 5025 2    50   ~ 0
 MISO_2
-Text Label 5900 5100 2    50   ~ 0
+Text Label 5750 5125 2    50   ~ 0
 SCK_2
-Text Label 5900 5200 2    50   ~ 0
+Text Label 6050 5225 2    50   ~ 0
 GND
 Text Label 5900 5600 2    50   ~ 0
 SS_2_0
@@ -311,23 +309,23 @@ SS_2_5
 $Comp
 L Connector_Generic:Conn_01x04 J9
 U 1 1 5C0A6E7D
-P 7300 5000
-F 0 "J9" H 7379 4992 50  0000 L CNN
-F 1 "MYO_SPI_3" H 7379 4901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7300 5000 50  0001 C CNN
-F 3 "~" H 7300 5000 50  0001 C CNN
-	1    7300 5000
+P 7525 5025
+F 0 "J9" H 7604 5017 50  0000 L CNN
+F 1 "MYO_SPI_3" H 7604 4926 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7525 5025 50  0001 C CNN
+F 3 "~" H 7525 5025 50  0001 C CNN
+	1    7525 5025
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J12
 U 1 1 5C0A6E83
-P 8400 5000
-F 0 "J12" H 8479 4992 50  0000 L CNN
-F 1 "MYO_SPI_4" H 8479 4901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8400 5000 50  0001 C CNN
-F 3 "~" H 8400 5000 50  0001 C CNN
-	1    8400 5000
+P 8750 5025
+F 0 "J12" H 8829 5017 50  0000 L CNN
+F 1 "MYO_SPI_4" H 8829 4926 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8750 5025 50  0001 C CNN
+F 3 "~" H 8750 5025 50  0001 C CNN
+	1    8750 5025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -336,7 +334,7 @@ U 1 1 5C0A6E89
 P 7300 5800
 F 0 "J10" H 7380 5792 50  0000 L CNN
 F 1 "MYO_SS_3" H 7380 5701 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 7300 5800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 7300 5800 50  0001 C CNN
 F 3 "~" H 7300 5800 50  0001 C CNN
 	1    7300 5800
 	1    0    0    -1  
@@ -347,18 +345,18 @@ U 1 1 5C0A6E8F
 P 8400 5800
 F 0 "J13" H 8480 5792 50  0000 L CNN
 F 1 "MYO_SS_4" H 8480 5701 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x06_Pitch2.54mm" H 8400 5800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 8400 5800 50  0001 C CNN
 F 3 "~" H 8400 5800 50  0001 C CNN
 	1    8400 5800
 	1    0    0    -1  
 $EndComp
-Text Label 7100 4900 2    50   ~ 0
+Text Label 7025 4925 2    50   ~ 0
 MOSI_3
-Text Label 7100 5000 2    50   ~ 0
+Text Label 7025 5025 2    50   ~ 0
 MISO_3
-Text Label 7100 5100 2    50   ~ 0
+Text Label 7025 5125 2    50   ~ 0
 SCK_3
-Text Label 7100 5200 2    50   ~ 0
+Text Label 7325 5225 2    50   ~ 0
 GND
 Text Label 7100 5600 2    50   ~ 0
 SS_3_0
@@ -372,13 +370,13 @@ Text Label 7100 6000 2    50   ~ 0
 SS_3_4
 Text Label 7100 6100 2    50   ~ 0
 SS_3_5
-Text Label 8200 4900 2    50   ~ 0
+Text Label 8250 4925 2    50   ~ 0
 MOSI_4
-Text Label 8200 5000 2    50   ~ 0
+Text Label 8250 5025 2    50   ~ 0
 MISO_4
-Text Label 8200 5100 2    50   ~ 0
+Text Label 8250 5125 2    50   ~ 0
 SCK_4
-Text Label 8200 5200 2    50   ~ 0
+Text Label 8550 5225 2    50   ~ 0
 GND
 Text Label 8200 5600 2    50   ~ 0
 SS_4_0
@@ -468,43 +466,6 @@ Text Label 9150 2600 2    50   ~ 0
 SCL_3
 Text Label 9150 2700 2    50   ~ 0
 3.3V
-$Comp
-L Switch:SW_DIP_x05 SW1
-U 1 1 5C0A7D61
-P 8300 3600
-F 0 "SW1" H 8300 3133 50  0000 C CNN
-F 1 "DIP_SWITCH" H 8300 3224 50  0000 C CNN
-F 2 "Buttons_Switches_SMD:SW_DIP_x5_W8.61mm_Slide_LowProfile" H 8300 3600 50  0001 C CNN
-F 3 "" H 8300 3600 50  0001 C CNN
-	1    8300 3600
-	-1   0    0    1   
-$EndComp
-Text Label 8700 3400 0    50   ~ 0
-GND
-Wire Wire Line
-	8700 3400 8600 3400
-Wire Wire Line
-	8600 3400 8600 3500
-Connection ~ 8600 3400
-Wire Wire Line
-	8600 3500 8600 3600
-Connection ~ 8600 3500
-Wire Wire Line
-	8600 3600 8600 3700
-Connection ~ 8600 3600
-Wire Wire Line
-	8600 3700 8600 3800
-Connection ~ 8600 3700
-Text Label 8000 3400 2    50   ~ 0
-SW_0
-Text Label 8000 3500 2    50   ~ 0
-SW_1
-Text Label 8000 3600 2    50   ~ 0
-SW_2
-Text Label 8000 3700 2    50   ~ 0
-SW_3
-Text Label 8000 3800 2    50   ~ 0
-SW_4
 Text Label 8100 4250 2    50   ~ 0
 power_sense_n
 $Comp
@@ -513,7 +474,7 @@ U 1 1 5C0A8384
 P 8300 4350
 F 0 "J11" H 8380 4392 50  0000 L CNN
 F 1 "POWER_SENSE" H 8380 4301 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 8300 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 8300 4350 50  0001 C CNN
 F 3 "~" H 8300 4350 50  0001 C CNN
 	1    8300 4350
 	1    0    0    -1  
@@ -528,7 +489,7 @@ U 1 1 5C0A95AE
 P 6500 4250
 F 0 "J19" H 6579 4242 50  0000 L CNN
 F 1 "FAN" H 6579 4151 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 6500 4250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6500 4250 50  0001 C CNN
 F 3 "~" H 6500 4250 50  0001 C CNN
 	1    6500 4250
 	1    0    0    -1  
@@ -547,4 +508,210 @@ NoConn ~ 6000 3200
 NoConn ~ 6000 3100
 NoConn ~ 6000 3000
 NoConn ~ 6000 2900
+$Comp
+L Device:R R4
+U 1 1 5CD5BBC2
+P 4650 4900
+F 0 "R4" V 4650 4950 50  0000 C CNN
+F 1 "1k" V 4650 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 4580 4900 50  0001 C CNN
+F 3 "~" H 4650 4900 50  0001 C CNN
+	1    4650 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CD5BDB9
+P 4650 5000
+F 0 "R5" V 4650 5050 50  0000 C CNN
+F 1 "1k" V 4650 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 4580 5000 50  0001 C CNN
+F 3 "~" H 4650 5000 50  0001 C CNN
+	1    4650 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5CD5BDF7
+P 4650 5100
+F 0 "R6" V 4650 5150 50  0000 C CNN
+F 1 "1k" V 4650 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 4580 5100 50  0001 C CNN
+F 3 "~" H 4650 5100 50  0001 C CNN
+	1    4650 5100
+	0    1    1    0   
+$EndComp
+Text Label 3525 5200 2    50   ~ 0
+GND
+$Comp
+L Device:R R1
+U 1 1 5CD5C230
+P 3375 4900
+F 0 "R1" V 3375 4950 50  0000 C CNN
+F 1 "1k" V 3375 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 3305 4900 50  0001 C CNN
+F 3 "~" H 3375 4900 50  0001 C CNN
+	1    3375 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CD5C236
+P 3375 5000
+F 0 "R2" V 3375 5050 50  0000 C CNN
+F 1 "1k" V 3375 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 3305 5000 50  0001 C CNN
+F 3 "~" H 3375 5000 50  0001 C CNN
+	1    3375 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CD5C23C
+P 3375 5100
+F 0 "R3" V 3375 5150 50  0000 C CNN
+F 1 "1k" V 3375 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 3305 5100 50  0001 C CNN
+F 3 "~" H 3375 5100 50  0001 C CNN
+	1    3375 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5CD5C6F9
+P 5900 4925
+F 0 "R7" V 5900 4975 50  0000 C CNN
+F 1 "1k" V 5900 4875 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 5830 4925 50  0001 C CNN
+F 3 "~" H 5900 4925 50  0001 C CNN
+	1    5900 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5CD5C6FF
+P 5900 5025
+F 0 "R8" V 5900 5075 50  0000 C CNN
+F 1 "1k" V 5900 4975 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 5830 5025 50  0001 C CNN
+F 3 "~" H 5900 5025 50  0001 C CNN
+	1    5900 5025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5CD5C705
+P 5900 5125
+F 0 "R9" V 5900 5175 50  0000 C CNN
+F 1 "1k" V 5900 5075 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 5830 5125 50  0001 C CNN
+F 3 "~" H 5900 5125 50  0001 C CNN
+	1    5900 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5CD5CBAB
+P 7175 4925
+F 0 "R10" V 7175 4975 50  0000 C CNN
+F 1 "1k" V 7175 4875 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 7105 4925 50  0001 C CNN
+F 3 "~" H 7175 4925 50  0001 C CNN
+	1    7175 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5CD5CBB1
+P 7175 5025
+F 0 "R11" V 7175 5075 50  0000 C CNN
+F 1 "1k" V 7175 4975 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 7105 5025 50  0001 C CNN
+F 3 "~" H 7175 5025 50  0001 C CNN
+	1    7175 5025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5CD5CBB7
+P 7175 5125
+F 0 "R12" V 7175 5175 50  0000 C CNN
+F 1 "1k" V 7175 5075 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 7105 5125 50  0001 C CNN
+F 3 "~" H 7175 5125 50  0001 C CNN
+	1    7175 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5CD5CD96
+P 8400 4925
+F 0 "R13" V 8400 4975 50  0000 C CNN
+F 1 "1k" V 8400 4875 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 8330 4925 50  0001 C CNN
+F 3 "~" H 8400 4925 50  0001 C CNN
+	1    8400 4925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5CD5CD9C
+P 8400 5025
+F 0 "R14" V 8400 5075 50  0000 C CNN
+F 1 "1k" V 8400 4975 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 8330 5025 50  0001 C CNN
+F 3 "~" H 8400 5025 50  0001 C CNN
+	1    8400 5025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5CD5CDA2
+P 8400 5125
+F 0 "R15" V 8400 5175 50  0000 C CNN
+F 1 "1k" V 8400 5075 50  0000 C CNN
+F 2 "Resistor_SMD:R_01005_0402Metric" V 8330 5125 50  0001 C CNN
+F 3 "~" H 8400 5125 50  0001 C CNN
+	1    8400 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J18
+U 1 1 5CD5DF06
+P 8450 3150
+F 0 "J18" H 8530 3142 50  0000 L CNN
+F 1 "I2C_2" H 8530 3051 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 3150 50  0001 C CNN
+F 3 "~" H 8450 3150 50  0001 C CNN
+	1    8450 3150
+	1    0    0    -1  
+$EndComp
+Text Label 8250 3350 2    50   ~ 0
+GND
+Text Label 8250 3050 2    50   ~ 0
+SDA_4
+Text Label 8250 3150 2    50   ~ 0
+SCL_4
+Text Label 8250 3250 2    50   ~ 0
+3.3V
+$Comp
+L Connector_Generic:Conn_01x04 J20
+U 1 1 5CD5DF10
+P 9350 3150
+F 0 "J20" H 9430 3142 50  0000 L CNN
+F 1 "I2C_3" H 9430 3051 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9350 3150 50  0001 C CNN
+F 3 "~" H 9350 3150 50  0001 C CNN
+	1    9350 3150
+	1    0    0    -1  
+$EndComp
+Text Label 9150 3350 2    50   ~ 0
+GND
+Text Label 9150 3050 2    50   ~ 0
+SDA_5
+Text Label 9150 3150 2    50   ~ 0
+SCL_5
+Text Label 9150 3250 2    50   ~ 0
+3.3V
+NoConn ~ 4200 1900
 $EndSCHEMATC
