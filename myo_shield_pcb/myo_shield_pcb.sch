@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:myo_shield_pcb-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -70,17 +70,6 @@ F 3 "~" H 6250 5025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x09 J2
-U 1 1 5C0A54E6
-P 3900 6000
-F 0 "J2" H 3980 6042 50  0000 L CNN
-F 1 "MYO_SS_0" H 3980 5951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 3900 6000 50  0001 C CNN
-F 3 "~" H 3900 6000 50  0001 C CNN
-	1    3900 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x06 J5
 U 1 1 5C0A5541
 P 5000 5800
@@ -89,17 +78,6 @@ F 1 "MYO_SS_1" H 5080 5701 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 5000 5800 50  0001 C CNN
 F 3 "~" H 5000 5800 50  0001 C CNN
 	1    5000 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J8
-U 1 1 5C0A557F
-P 6100 5800
-F 0 "J8" H 6180 5792 50  0000 L CNN
-F 1 "MYO_SS_2" H 6180 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 6100 5800 50  0001 C CNN
-F 3 "~" H 6100 5800 50  0001 C CNN
-	1    6100 5800
 	1    0    0    -1  
 $EndComp
 Text Label 4200 3800 0    50   ~ 0
@@ -233,12 +211,10 @@ SCL_2
 Text Label 6000 3500 0    50   ~ 0
 SCL_3
 Text Label 3700 2000 2    50   ~ 0
-SCL_5
-Text Label 3700 2100 2    50   ~ 0
 SCL_4
+Text Label 3700 2100 2    50   ~ 0
+SCL_5
 Text Label 4200 2100 0    50   ~ 0
-SDA_4
-Text Label 4200 2000 0    50   ~ 0
 SDA_5
 Text Label 3225 4900 2    50   ~ 0
 MOSI_0
@@ -248,24 +224,6 @@ Text Label 3225 5100 2    50   ~ 0
 SCK_0
 Text Label 3525 5200 2    50   ~ 0
 GND
-Text Label 3700 5600 2    50   ~ 0
-SS_0_0
-Text Label 3700 5700 2    50   ~ 0
-SS_0_1
-Text Label 3700 5800 2    50   ~ 0
-SS_0_2
-Text Label 3700 5900 2    50   ~ 0
-SS_0_3
-Text Label 3700 6000 2    50   ~ 0
-SS_0_4
-Text Label 3700 6100 2    50   ~ 0
-SS_0_5
-Text Label 3700 6200 2    50   ~ 0
-SS_0_6
-Text Label 3700 6300 2    50   ~ 0
-SS_0_7
-Text Label 3700 6400 2    50   ~ 0
-SS_0_8
 Text Label 4500 4900 2    50   ~ 0
 MOSI_1
 Text Label 4500 5000 2    50   ~ 0
@@ -274,18 +232,6 @@ Text Label 4500 5100 2    50   ~ 0
 SCK_1
 Text Label 4800 5200 2    50   ~ 0
 GND
-Text Label 4800 5600 2    50   ~ 0
-SS_1_0
-Text Label 4800 5700 2    50   ~ 0
-SS_1_1
-Text Label 4800 5800 2    50   ~ 0
-SS_1_2
-Text Label 4800 5900 2    50   ~ 0
-SS_1_3
-Text Label 4800 6000 2    50   ~ 0
-SS_1_4
-Text Label 4800 6100 2    50   ~ 0
-SS_1_5
 Text Label 5750 4925 2    50   ~ 0
 MOSI_2
 Text Label 5750 5025 2    50   ~ 0
@@ -294,18 +240,6 @@ Text Label 5750 5125 2    50   ~ 0
 SCK_2
 Text Label 6050 5225 2    50   ~ 0
 GND
-Text Label 5900 5600 2    50   ~ 0
-SS_2_0
-Text Label 5900 5700 2    50   ~ 0
-SS_2_1
-Text Label 5900 5800 2    50   ~ 0
-SS_2_2
-Text Label 5900 5900 2    50   ~ 0
-SS_2_3
-Text Label 5900 6000 2    50   ~ 0
-SS_2_4
-Text Label 5900 6100 2    50   ~ 0
-SS_2_5
 $Comp
 L Connector_Generic:Conn_01x04 J9
 U 1 1 5C0A6E7D
@@ -328,28 +262,6 @@ F 3 "~" H 8750 5025 50  0001 C CNN
 	1    8750 5025
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J10
-U 1 1 5C0A6E89
-P 7300 5800
-F 0 "J10" H 7380 5792 50  0000 L CNN
-F 1 "MYO_SS_3" H 7380 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 7300 5800 50  0001 C CNN
-F 3 "~" H 7300 5800 50  0001 C CNN
-	1    7300 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J13
-U 1 1 5C0A6E8F
-P 8400 5800
-F 0 "J13" H 8480 5792 50  0000 L CNN
-F 1 "MYO_SS_4" H 8480 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 8400 5800 50  0001 C CNN
-F 3 "~" H 8400 5800 50  0001 C CNN
-	1    8400 5800
-	1    0    0    -1  
-$EndComp
 Text Label 7025 4925 2    50   ~ 0
 MOSI_3
 Text Label 7025 5025 2    50   ~ 0
@@ -358,18 +270,6 @@ Text Label 7025 5125 2    50   ~ 0
 SCK_3
 Text Label 7325 5225 2    50   ~ 0
 GND
-Text Label 7100 5600 2    50   ~ 0
-SS_3_0
-Text Label 7100 5700 2    50   ~ 0
-SS_3_1
-Text Label 7100 5800 2    50   ~ 0
-SS_3_2
-Text Label 7100 5900 2    50   ~ 0
-SS_3_3
-Text Label 7100 6000 2    50   ~ 0
-SS_3_4
-Text Label 7100 6100 2    50   ~ 0
-SS_3_5
 Text Label 8250 4925 2    50   ~ 0
 MOSI_4
 Text Label 8250 5025 2    50   ~ 0
@@ -378,18 +278,6 @@ Text Label 8250 5125 2    50   ~ 0
 SCK_4
 Text Label 8550 5225 2    50   ~ 0
 GND
-Text Label 8200 5600 2    50   ~ 0
-SS_4_0
-Text Label 8200 5700 2    50   ~ 0
-SS_4_1
-Text Label 8200 5800 2    50   ~ 0
-SS_4_2
-Text Label 8200 5900 2    50   ~ 0
-SS_4_3
-Text Label 8200 6000 2    50   ~ 0
-SS_4_4
-Text Label 8200 6100 2    50   ~ 0
-SS_4_5
 $Comp
 L Connector_Generic:Conn_01x04 J14
 U 1 1 5C0A742D
@@ -713,5 +601,287 @@ Text Label 9150 3150 2    50   ~ 0
 SCL_5
 Text Label 9150 3250 2    50   ~ 0
 3.3V
-NoConn ~ 4200 1900
+Text Label 8200 6100 2    50   ~ 0
+SS_4_5
+Text Label 8200 6000 2    50   ~ 0
+SS_4_4
+Text Label 8200 5900 2    50   ~ 0
+SS_4_3
+Text Label 8200 5800 2    50   ~ 0
+SS_4_2
+Text Label 8200 5700 2    50   ~ 0
+SS_4_1
+Text Label 8200 5600 2    50   ~ 0
+SS_4_0
+Text Label 7100 6100 2    50   ~ 0
+SS_3_5
+Text Label 7100 6000 2    50   ~ 0
+SS_3_4
+Text Label 7100 5900 2    50   ~ 0
+SS_3_3
+Text Label 7100 5800 2    50   ~ 0
+SS_3_2
+Text Label 7100 5700 2    50   ~ 0
+SS_3_1
+Text Label 7100 5600 2    50   ~ 0
+SS_3_0
+$Comp
+L Connector_Generic:Conn_01x06 J13
+U 1 1 5C0A6E8F
+P 8400 5800
+F 0 "J13" H 8480 5792 50  0000 L CNN
+F 1 "MYO_SS_4" H 8480 5701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 8400 5800 50  0001 C CNN
+F 3 "~" H 8400 5800 50  0001 C CNN
+	1    8400 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J10
+U 1 1 5C0A6E89
+P 7300 5800
+F 0 "J10" H 7380 5792 50  0000 L CNN
+F 1 "MYO_SS_3" H 7380 5701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 7300 5800 50  0001 C CNN
+F 3 "~" H 7300 5800 50  0001 C CNN
+	1    7300 5800
+	1    0    0    -1  
+$EndComp
+Text Label 5900 6100 2    50   ~ 0
+SS_2_5
+Text Label 5900 6000 2    50   ~ 0
+SS_2_4
+Text Label 5900 5900 2    50   ~ 0
+SS_2_3
+Text Label 5900 5800 2    50   ~ 0
+SS_2_2
+Text Label 5900 5700 2    50   ~ 0
+SS_2_1
+Text Label 5900 5600 2    50   ~ 0
+SS_2_0
+$Comp
+L Connector_Generic:Conn_01x06 J8
+U 1 1 5C0A557F
+P 6100 5800
+F 0 "J8" H 6180 5792 50  0000 L CNN
+F 1 "MYO_SS_2" H 6180 5701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 6100 5800 50  0001 C CNN
+F 3 "~" H 6100 5800 50  0001 C CNN
+	1    6100 5800
+	1    0    0    -1  
+$EndComp
+Text Label 4800 6100 2    50   ~ 0
+SS_1_5
+Text Label 4800 6000 2    50   ~ 0
+SS_1_4
+Text Label 4800 5900 2    50   ~ 0
+SS_1_3
+Text Label 4800 5800 2    50   ~ 0
+SS_1_2
+Text Label 4800 5700 2    50   ~ 0
+SS_1_1
+Text Label 4800 5600 2    50   ~ 0
+SS_1_0
+$Comp
+L Connector_Generic:Conn_01x09 J2
+U 1 1 5C0A54E6
+P 3900 6000
+F 0 "J2" H 3980 6042 50  0000 L CNN
+F 1 "MYO_SS_0" H 3980 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 3900 6000 50  0001 C CNN
+F 3 "~" H 3900 6000 50  0001 C CNN
+	1    3900 6000
+	1    0    0    -1  
+$EndComp
+Text Label 3700 6400 2    50   ~ 0
+SS_0_8
+Text Label 3700 6300 2    50   ~ 0
+SS_0_7
+Text Label 3700 6200 2    50   ~ 0
+SS_0_6
+Text Label 3700 6100 2    50   ~ 0
+SS_0_5
+Text Label 3700 6000 2    50   ~ 0
+SS_0_4
+Text Label 3700 5900 2    50   ~ 0
+SS_0_3
+Text Label 3700 5800 2    50   ~ 0
+SS_0_2
+Text Label 3700 5700 2    50   ~ 0
+SS_0_1
+Text Label 3700 5600 2    50   ~ 0
+SS_0_0
+Text Label 4200 2000 0    50   ~ 0
+SDA_4
+$Comp
+L LED:SK6812MINI D1
+U 1 1 5CE26BAE
+P 1115 6995
+F 0 "D1" H 1155 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 930 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1165 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1215 6620 50  0001 L TNN
+	1    1115 6995
+	1    0    0    -1  
+$EndComp
+Text Label 1115 7295 3    50   ~ 0
+GND
+Text Label 1115 6695 1    50   ~ 0
+5V
+Text Label 4200 1900 0    50   ~ 0
+NEOPX
+Text Label 815  6995 2    50   ~ 0
+NEOPX
+$Comp
+L LED:SK6812MINI D2
+U 1 1 5CE3F119
+P 1715 6995
+F 0 "D2" H 1755 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 1530 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1765 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1815 6620 50  0001 L TNN
+	1    1715 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D3
+U 1 1 5CE3F730
+P 2315 6995
+F 0 "D3" H 2355 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 2130 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2365 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2415 6620 50  0001 L TNN
+	1    2315 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D4
+U 1 1 5CE3FF39
+P 2915 6995
+F 0 "D4" H 2955 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 2730 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2965 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3015 6620 50  0001 L TNN
+	1    2915 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D5
+U 1 1 5CE4062D
+P 3515 6995
+F 0 "D5" H 3555 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 3330 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3565 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3615 6620 50  0001 L TNN
+	1    3515 6995
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1715 6695 1115 6695
+Wire Wire Line
+	1715 6695 2315 6695
+Connection ~ 1715 6695
+Wire Wire Line
+	2315 6695 2915 6695
+Connection ~ 2315 6695
+Connection ~ 2915 6695
+Wire Wire Line
+	1115 7295 1715 7295
+Wire Wire Line
+	2315 7295 1715 7295
+Connection ~ 1715 7295
+Connection ~ 2315 7295
+Wire Wire Line
+	2315 7295 2915 7295
+Connection ~ 2915 7295
+$Comp
+L LED:SK6812MINI D6
+U 1 1 5CE61689
+P 4115 6995
+F 0 "D6" H 4155 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 3930 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4165 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4215 6620 50  0001 L TNN
+	1    4115 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D7
+U 1 1 5CE61693
+P 4715 6995
+F 0 "D7" H 4755 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 4530 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4765 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4815 6620 50  0001 L TNN
+	1    4715 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D8
+U 1 1 5CE6169D
+P 5315 6995
+F 0 "D8" H 5355 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 5130 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5365 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5415 6620 50  0001 L TNN
+	1    5315 6995
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI D9
+U 1 1 5CE616A7
+P 5915 6995
+F 0 "D9" H 5955 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 5730 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5965 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6015 6620 50  0001 L TNN
+	1    5915 6995
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4115 6695 4715 6695
+Connection ~ 4115 6695
+Wire Wire Line
+	4715 6695 5315 6695
+Connection ~ 4715 6695
+Wire Wire Line
+	5315 6695 5915 6695
+Connection ~ 5315 6695
+Wire Wire Line
+	4715 7295 4115 7295
+Connection ~ 4115 7295
+Connection ~ 4715 7295
+Wire Wire Line
+	4715 7295 5315 7295
+Connection ~ 5315 7295
+Wire Wire Line
+	5315 7295 5915 7295
+Wire Wire Line
+	2915 6695 3515 6695
+Wire Wire Line
+	2915 7295 3515 7295
+Connection ~ 3515 7295
+Wire Wire Line
+	3515 7295 4115 7295
+Connection ~ 3515 6695
+Wire Wire Line
+	3515 6695 4115 6695
+$Comp
+L LED:SK6812MINI D10
+U 1 1 5CE71DA9
+P 6515 6995
+F 0 "D10" H 6555 7255 50  0000 L CNN
+F 1 "SK6812MINI" H 6330 6750 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6565 6695 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6615 6620 50  0001 L TNN
+	1    6515 6995
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5915 6695 6515 6695
+Wire Wire Line
+	5915 7295 6515 7295
+Connection ~ 5915 6695
+Connection ~ 5915 7295
+NoConn ~ 6815 6995
 $EndSCHEMATC
