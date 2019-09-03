@@ -281,11 +281,25 @@ X VDD 4 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# LTC2855CDEPBF_LTC2855CDEPBF
+# myo_shield_pcb-rescue_+5V-motor_drive_9y_protection-eagle-import
 #
-DEF LTC2855CDEPBF_LTC2855CDEPBF U 0 40 Y Y 1 L N
+DEF myo_shield_pcb-rescue_+5V-motor_drive_9y_protection-eagle-import #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "myo_shield_pcb-rescue_+5V-motor_drive_9y_protection-eagle-import" -100 -200 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X +5V 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# myo_shield_pcb-rescue_LTC2855CDEPBF-LTC2855CDEPBF
+#
+DEF myo_shield_pcb-rescue_LTC2855CDEPBF-LTC2855CDEPBF U 0 40 Y Y 1 L N
 F0 "U" 914 359 50 H V L BNN
-F1 "LTC2855CDEPBF_LTC2855CDEPBF" 890 259 50 H V L BNN
+F1 "myo_shield_pcb-rescue_LTC2855CDEPBF-LTC2855CDEPBF" 890 259 50 H V L BNN
 F2 "DFN-12_DE" 0 0 50 H I L BNN
 F3 "Unavailable" 0 0 50 H I L BNN
 F4 "Interface IC - transceivers Linear Technology LTC2855CDE#PBF RS422, RS485 1/1 DFN 12" 0 0 50 H I L BNN
@@ -314,11 +328,11 @@ X Z 9 2200 -400 300 L 40 40 0 0 O
 ENDDRAW
 ENDDEF
 #
-# custom_TE-Connectivity_Micro_Match_215079-6
+# myo_shield_pcb-rescue_TE-Connectivity_Micro_Match_215079-6-custom
 #
-DEF custom_TE-Connectivity_Micro_Match_215079-6 J 0 40 Y N 1 F N
+DEF myo_shield_pcb-rescue_TE-Connectivity_Micro_Match_215079-6-custom J 0 40 Y N 1 F N
 F0 "J" 0 350 50 H V C CNN
-F1 "custom_TE-Connectivity_Micro_Match_215079-6" 100 0 50 V V C CNN
+F1 "myo_shield_pcb-rescue_TE-Connectivity_Micro_Match_215079-6-custom" 100 0 50 V V C CNN
 F2 "" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -338,20 +352,6 @@ X P3 3 -200 50 150 R 50 50 1 1 P
 X P4 4 -200 -50 150 R 50 50 1 1 P
 X P5 5 -200 -150 150 R 50 50 1 1 P
 X P6 6 -200 -250 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# motor_drive_9y_protection-eagle-import_+5V
-#
-DEF motor_drive_9y_protection-eagle-import_+5V #P+ 0 40 Y Y 1 L P
-F0 "#P+" 0 0 50 H I C CNN
-F1 "motor_drive_9y_protection-eagle-import_+5V" -100 -200 59 V V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 0 0 -50 -75 N
-P 2 1 0 0 50 -75 0 0 N
-X +5V 1 0 -100 100 U 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
