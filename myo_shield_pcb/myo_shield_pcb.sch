@@ -25,50 +25,6 @@ F 3 "~" H 5700 2800 50  0001 C CNN
 	1    5700 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J1
-U 1 1 5C0A5346
-P 3725 5000
-F 0 "J1" H 3804 4992 50  0000 L CNN
-F 1 "MYO_SPI_0" H 3804 4901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 3725 5000 50  0001 C CNN
-F 3 "~" H 3725 5000 50  0001 C CNN
-	1    3725 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 5C0A5366
-P 5000 5000
-F 0 "J4" H 5079 4992 50  0000 L CNN
-F 1 "MYO_SPI_1" H 5079 4901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 5000 5000 50  0001 C CNN
-F 3 "~" H 5000 5000 50  0001 C CNN
-	1    5000 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J7
-U 1 1 5C0A5488
-P 6250 5025
-F 0 "J7" H 6329 5017 50  0000 L CNN
-F 1 "MYO_SPI_2" H 6329 4926 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 6250 5025 50  0001 C CNN
-F 3 "~" H 6250 5025 50  0001 C CNN
-	1    6250 5025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J5
-U 1 1 5C0A5541
-P 5000 5800
-F 0 "J5" H 5080 5792 50  0000 L CNN
-F 1 "MYO_SS_1" H 5080 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 5000 5800 50  0001 C CNN
-F 3 "~" H 5000 5800 50  0001 C CNN
-	1    5000 5800
-	1    0    0    -1  
-$EndComp
 Text Label 4200 3800 0    50   ~ 0
 MOSI_0
 Text Label 3700 3800 2    50   ~ 0
@@ -181,140 +137,88 @@ Text Label 6000 3500 0    50   ~ 0
 SCL_3
 Text Label 3700 2000 2    50   ~ 0
 SCL_4
-Text Label 3225 4900 2    50   ~ 0
-MOSI_0
-Text Label 3225 5000 2    50   ~ 0
-MISO_0
-Text Label 3225 5100 2    50   ~ 0
-SCK_0
-Text Label 4500 4900 2    50   ~ 0
-MOSI_1
-Text Label 4500 5000 2    50   ~ 0
-MISO_1
-Text Label 4500 5100 2    50   ~ 0
-SCK_1
-Text Label 5750 4925 2    50   ~ 0
-MOSI_2
-Text Label 5750 5025 2    50   ~ 0
-MISO_2
-Text Label 5750 5125 2    50   ~ 0
-SCK_2
-$Comp
-L Connector_Generic:Conn_01x04 J9
-U 1 1 5C0A6E7D
-P 7525 5025
-F 0 "J9" H 7604 5017 50  0000 L CNN
-F 1 "MYO_SPI_3" H 7604 4926 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7525 5025 50  0001 C CNN
-F 3 "~" H 7525 5025 50  0001 C CNN
-	1    7525 5025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J12
-U 1 1 5C0A6E83
-P 8750 5025
-F 0 "J12" H 8829 5017 50  0000 L CNN
-F 1 "MYO_SPI_4" H 8829 4926 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8750 5025 50  0001 C CNN
-F 3 "~" H 8750 5025 50  0001 C CNN
-	1    8750 5025
-	1    0    0    -1  
-$EndComp
-Text Label 7025 4925 2    50   ~ 0
-MOSI_3
-Text Label 7025 5025 2    50   ~ 0
-MISO_3
-Text Label 7025 5125 2    50   ~ 0
-SCK_3
-Text Label 8250 4925 2    50   ~ 0
-MOSI_4
-Text Label 8250 5025 2    50   ~ 0
-MISO_4
-Text Label 8250 5125 2    50   ~ 0
-SCK_4
 $Comp
 L Connector_Generic:Conn_01x04 J14
 U 1 1 5C0A742D
-P 8450 2000
-F 0 "J14" H 8530 1992 50  0000 L CNN
-F 1 "I2C_0" H 8530 1901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 2000 50  0001 C CNN
-F 3 "~" H 8450 2000 50  0001 C CNN
-	1    8450 2000
+P 7550 850
+F 0 "J14" H 7630 842 50  0000 L CNN
+F 1 "I2C_0" H 7630 751 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7550 850 50  0001 C CNN
+F 3 "~" H 7550 850 50  0001 C CNN
+	1    7550 850 
 	1    0    0    -1  
 $EndComp
-Text Label 8250 1900 2    50   ~ 0
+Text Label 7350 750  2    50   ~ 0
 SDA_0
-Text Label 8250 2000 2    50   ~ 0
+Text Label 7350 850  2    50   ~ 0
 SCL_0
 $Comp
 L Connector_Generic:Conn_01x04 J16
 U 1 1 5C0A7992
-P 9350 2000
-F 0 "J16" H 9430 1992 50  0000 L CNN
-F 1 "I2C_1" H 9430 1901 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9350 2000 50  0001 C CNN
-F 3 "~" H 9350 2000 50  0001 C CNN
-	1    9350 2000
+P 8450 850
+F 0 "J16" H 8530 842 50  0000 L CNN
+F 1 "I2C_1" H 8530 751 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 850 50  0001 C CNN
+F 3 "~" H 8450 850 50  0001 C CNN
+	1    8450 850 
 	1    0    0    -1  
 $EndComp
-Text Label 9150 1900 2    50   ~ 0
+Text Label 8250 750  2    50   ~ 0
 SDA_1
-Text Label 9150 2000 2    50   ~ 0
+Text Label 8250 850  2    50   ~ 0
 SCL_1
 $Comp
 L Connector_Generic:Conn_01x04 J15
 U 1 1 5C0A7A58
-P 8450 2600
-F 0 "J15" H 8530 2592 50  0000 L CNN
-F 1 "I2C_2" H 8530 2501 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 2600 50  0001 C CNN
-F 3 "~" H 8450 2600 50  0001 C CNN
-	1    8450 2600
+P 7550 1450
+F 0 "J15" H 7630 1442 50  0000 L CNN
+F 1 "I2C_2" H 7630 1351 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7550 1450 50  0001 C CNN
+F 3 "~" H 7550 1450 50  0001 C CNN
+	1    7550 1450
 	1    0    0    -1  
 $EndComp
-Text Label 8250 2500 2    50   ~ 0
+Text Label 7350 1350 2    50   ~ 0
 SDA_2
-Text Label 8250 2600 2    50   ~ 0
+Text Label 7350 1450 2    50   ~ 0
 SCL_2
 $Comp
 L Connector_Generic:Conn_01x04 J17
 U 1 1 5C0A7A62
-P 9350 2600
-F 0 "J17" H 9430 2592 50  0000 L CNN
-F 1 "I2C_3" H 9430 2501 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9350 2600 50  0001 C CNN
-F 3 "~" H 9350 2600 50  0001 C CNN
-	1    9350 2600
+P 8450 1450
+F 0 "J17" H 8530 1442 50  0000 L CNN
+F 1 "I2C_3" H 8530 1351 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 1450 50  0001 C CNN
+F 3 "~" H 8450 1450 50  0001 C CNN
+	1    8450 1450
 	1    0    0    -1  
 $EndComp
-Text Label 9150 2500 2    50   ~ 0
+Text Label 8250 1350 2    50   ~ 0
 SDA_3
-Text Label 9150 2600 2    50   ~ 0
+Text Label 8250 1450 2    50   ~ 0
 SCL_3
-Text Label 8100 4250 2    50   ~ 0
+Text Label 5525 5950 2    50   ~ 0
 power_sense_n
 $Comp
 L Connector_Generic:Conn_01x03 J11
 U 1 1 5C0A8384
-P 8300 4350
-F 0 "J11" H 8380 4392 50  0000 L CNN
-F 1 "POWER_SENSE" H 8380 4301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 8300 4350 50  0001 C CNN
-F 3 "~" H 8300 4350 50  0001 C CNN
-	1    8300 4350
+P 5725 6050
+F 0 "J11" H 5805 6092 50  0000 L CNN
+F 1 "POWER_SENSE" H 5805 6001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 5725 6050 50  0001 C CNN
+F 3 "~" H 5725 6050 50  0001 C CNN
+	1    5725 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J19
 U 1 1 5C0A95AE
-P 6500 4250
-F 0 "J19" H 6579 4242 50  0000 L CNN
-F 1 "FAN" H 6579 4151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6500 4250 50  0001 C CNN
-F 3 "~" H 6500 4250 50  0001 C CNN
-	1    6500 4250
+P 3925 5950
+F 0 "J19" H 4004 5942 50  0000 L CNN
+F 1 "FAN" H 4004 5851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 3925 5950 50  0001 C CNN
+F 3 "~" H 3925 5950 50  0001 C CNN
+	1    3925 5950
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5500 2900
@@ -327,294 +231,6 @@ NoConn ~ 6000 3200
 NoConn ~ 6000 3100
 NoConn ~ 6000 3000
 NoConn ~ 6000 2900
-$Comp
-L Device:R R4
-U 1 1 5CD5BBC2
-P 4650 4900
-F 0 "R4" V 4650 4950 50  0000 C CNN
-F 1 "1k" V 4650 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 4900 50  0001 C CNN
-F 3 "~" H 4650 4900 50  0001 C CNN
-	1    4650 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5CD5BDB9
-P 4650 5000
-F 0 "R5" V 4650 5050 50  0000 C CNN
-F 1 "1k" V 4650 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 5000 50  0001 C CNN
-F 3 "~" H 4650 5000 50  0001 C CNN
-	1    4650 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5CD5BDF7
-P 4650 5100
-F 0 "R6" V 4650 5150 50  0000 C CNN
-F 1 "1k" V 4650 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 5100 50  0001 C CNN
-F 3 "~" H 4650 5100 50  0001 C CNN
-	1    4650 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5CD5C230
-P 3375 4900
-F 0 "R1" V 3375 4950 50  0000 C CNN
-F 1 "1k" V 3375 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3305 4900 50  0001 C CNN
-F 3 "~" H 3375 4900 50  0001 C CNN
-	1    3375 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5CD5C236
-P 3375 5000
-F 0 "R2" V 3375 5050 50  0000 C CNN
-F 1 "1k" V 3375 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3305 5000 50  0001 C CNN
-F 3 "~" H 3375 5000 50  0001 C CNN
-	1    3375 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5CD5C23C
-P 3375 5100
-F 0 "R3" V 3375 5150 50  0000 C CNN
-F 1 "1k" V 3375 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 3305 5100 50  0001 C CNN
-F 3 "~" H 3375 5100 50  0001 C CNN
-	1    3375 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5CD5C6F9
-P 5900 4925
-F 0 "R7" V 5900 4975 50  0000 C CNN
-F 1 "1k" V 5900 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 4925 50  0001 C CNN
-F 3 "~" H 5900 4925 50  0001 C CNN
-	1    5900 4925
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5CD5C6FF
-P 5900 5025
-F 0 "R8" V 5900 5075 50  0000 C CNN
-F 1 "1k" V 5900 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 5025 50  0001 C CNN
-F 3 "~" H 5900 5025 50  0001 C CNN
-	1    5900 5025
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5CD5C705
-P 5900 5125
-F 0 "R9" V 5900 5175 50  0000 C CNN
-F 1 "1k" V 5900 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 5125 50  0001 C CNN
-F 3 "~" H 5900 5125 50  0001 C CNN
-	1    5900 5125
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5CD5CBAB
-P 7175 4925
-F 0 "R10" V 7175 4975 50  0000 C CNN
-F 1 "1k" V 7175 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7105 4925 50  0001 C CNN
-F 3 "~" H 7175 4925 50  0001 C CNN
-	1    7175 4925
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5CD5CBB1
-P 7175 5025
-F 0 "R11" V 7175 5075 50  0000 C CNN
-F 1 "1k" V 7175 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7105 5025 50  0001 C CNN
-F 3 "~" H 7175 5025 50  0001 C CNN
-	1    7175 5025
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5CD5CBB7
-P 7175 5125
-F 0 "R12" V 7175 5175 50  0000 C CNN
-F 1 "1k" V 7175 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 7105 5125 50  0001 C CNN
-F 3 "~" H 7175 5125 50  0001 C CNN
-	1    7175 5125
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5CD5CD96
-P 8400 4925
-F 0 "R13" V 8400 4975 50  0000 C CNN
-F 1 "1k" V 8400 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 4925 50  0001 C CNN
-F 3 "~" H 8400 4925 50  0001 C CNN
-	1    8400 4925
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 5CD5CD9C
-P 8400 5025
-F 0 "R14" V 8400 5075 50  0000 C CNN
-F 1 "1k" V 8400 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 5025 50  0001 C CNN
-F 3 "~" H 8400 5025 50  0001 C CNN
-	1    8400 5025
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5CD5CDA2
-P 8400 5125
-F 0 "R15" V 8400 5175 50  0000 C CNN
-F 1 "1k" V 8400 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 5125 50  0001 C CNN
-F 3 "~" H 8400 5125 50  0001 C CNN
-	1    8400 5125
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 J18
-U 1 1 5CD5DF06
-P 8450 3150
-F 0 "J18" H 8530 3142 50  0000 L CNN
-F 1 "I2C_2" H 8530 3051 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 3150 50  0001 C CNN
-F 3 "~" H 8450 3150 50  0001 C CNN
-	1    8450 3150
-	1    0    0    -1  
-$EndComp
-Text Label 8250 3050 2    50   ~ 0
-SDA_4
-Text Label 8250 3150 2    50   ~ 0
-SCL_4
-Text Label 8200 6100 2    50   ~ 0
-SS_4_5
-Text Label 8200 6000 2    50   ~ 0
-SS_4_4
-Text Label 8200 5900 2    50   ~ 0
-SS_4_3
-Text Label 8200 5800 2    50   ~ 0
-SS_4_2
-Text Label 8200 5700 2    50   ~ 0
-SS_4_1
-Text Label 8200 5600 2    50   ~ 0
-SS_4_0
-Text Label 7100 6100 2    50   ~ 0
-SS_3_5
-Text Label 7100 6000 2    50   ~ 0
-SS_3_4
-Text Label 7100 5900 2    50   ~ 0
-SS_3_3
-Text Label 7100 5800 2    50   ~ 0
-SS_3_2
-Text Label 7100 5700 2    50   ~ 0
-SS_3_1
-Text Label 7100 5600 2    50   ~ 0
-SS_3_0
-$Comp
-L Connector_Generic:Conn_01x06 J13
-U 1 1 5C0A6E8F
-P 8400 5800
-F 0 "J13" H 8480 5792 50  0000 L CNN
-F 1 "MYO_SS_4" H 8480 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 8400 5800 50  0001 C CNN
-F 3 "~" H 8400 5800 50  0001 C CNN
-	1    8400 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J10
-U 1 1 5C0A6E89
-P 7300 5800
-F 0 "J10" H 7380 5792 50  0000 L CNN
-F 1 "MYO_SS_3" H 7380 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 7300 5800 50  0001 C CNN
-F 3 "~" H 7300 5800 50  0001 C CNN
-	1    7300 5800
-	1    0    0    -1  
-$EndComp
-Text Label 5900 6000 2    50   ~ 0
-SS_2_4
-Text Label 5900 5900 2    50   ~ 0
-SS_2_3
-Text Label 5900 5800 2    50   ~ 0
-SS_2_2
-Text Label 5900 5700 2    50   ~ 0
-SS_2_1
-Text Label 5900 5600 2    50   ~ 0
-SS_2_0
-$Comp
-L Connector_Generic:Conn_01x06 J8
-U 1 1 5C0A557F
-P 6100 5800
-F 0 "J8" H 6180 5792 50  0000 L CNN
-F 1 "MYO_SS_2" H 6180 5701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 6100 5800 50  0001 C CNN
-F 3 "~" H 6100 5800 50  0001 C CNN
-	1    6100 5800
-	1    0    0    -1  
-$EndComp
-Text Label 4800 6100 2    50   ~ 0
-SS_1_5
-Text Label 4800 6000 2    50   ~ 0
-SS_1_4
-Text Label 4800 5900 2    50   ~ 0
-SS_1_3
-Text Label 4800 5800 2    50   ~ 0
-SS_1_2
-Text Label 4800 5700 2    50   ~ 0
-SS_1_1
-Text Label 4800 5600 2    50   ~ 0
-SS_1_0
-$Comp
-L Connector_Generic:Conn_01x09 J2
-U 1 1 5C0A54E6
-P 3900 6000
-F 0 "J2" H 3980 6042 50  0000 L CNN
-F 1 "MYO_SS_0" H 3980 5951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Horizontal" H 3900 6000 50  0001 C CNN
-F 3 "~" H 3900 6000 50  0001 C CNN
-	1    3900 6000
-	1    0    0    -1  
-$EndComp
-Text Label 3700 6400 2    50   ~ 0
-SS_0_8
-Text Label 3700 6300 2    50   ~ 0
-SS_0_7
-Text Label 3700 6200 2    50   ~ 0
-SS_0_6
-Text Label 3700 6100 2    50   ~ 0
-SS_0_5
-Text Label 3700 6000 2    50   ~ 0
-SS_0_4
-Text Label 3700 5900 2    50   ~ 0
-SS_0_3
-Text Label 3700 5800 2    50   ~ 0
-SS_0_2
-Text Label 3700 5700 2    50   ~ 0
-SS_0_1
-Text Label 3700 5600 2    50   ~ 0
-SS_0_0
 Text Label 4200 2000 0    50   ~ 0
 SDA_4
 Text Label 4200 1900 0    50   ~ 0
@@ -787,23 +403,23 @@ $EndSheet
 $Comp
 L power:GND #PWR0101
 U 1 1 5D7181CA
-P 6300 4250
-F 0 "#PWR0101" H 6300 4000 50  0001 C CNN
-F 1 "GND" V 6305 4122 50  0000 R CNN
-F 2 "" H 6300 4250 50  0001 C CNN
-F 3 "" H 6300 4250 50  0001 C CNN
-	1    6300 4250
+P 3725 5950
+F 0 "#PWR0101" H 3725 5700 50  0001 C CNN
+F 1 "GND" V 3730 5822 50  0000 R CNN
+F 2 "" H 3725 5950 50  0001 C CNN
+F 3 "" H 3725 5950 50  0001 C CNN
+	1    3725 5950
 	0    1    1    0   
 $EndComp
 $Comp
 L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+0101
 U 1 1 5D72594A
-P 6200 4350
-F 0 "#P+0101" H 6200 4350 50  0001 C CNN
-F 1 "+5V" V 6200 4419 59  0000 L CNN
-F 2 "" H 6200 4350 50  0001 C CNN
-F 3 "" H 6200 4350 50  0001 C CNN
-	1    6200 4350
+P 3625 6050
+F 0 "#P+0101" H 3625 6050 50  0001 C CNN
+F 1 "+5V" V 3625 6119 59  0000 L CNN
+F 2 "" H 3625 6050 50  0001 C CNN
+F 3 "" H 3625 6050 50  0001 C CNN
+	1    3625 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -831,56 +447,45 @@ $EndComp
 $Comp
 L power:GND #PWR0104
 U 1 1 5D7537E9
-P 8250 2200
-F 0 "#PWR0104" H 8250 1950 50  0001 C CNN
-F 1 "GND" V 8255 2072 50  0000 R CNN
-F 2 "" H 8250 2200 50  0001 C CNN
-F 3 "" H 8250 2200 50  0001 C CNN
-	1    8250 2200
+P 7350 1050
+F 0 "#PWR0104" H 7350 800 50  0001 C CNN
+F 1 "GND" V 7355 922 50  0000 R CNN
+F 2 "" H 7350 1050 50  0001 C CNN
+F 3 "" H 7350 1050 50  0001 C CNN
+	1    7350 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5D75631E
-P 9150 2200
-F 0 "#PWR0105" H 9150 1950 50  0001 C CNN
-F 1 "GND" V 9155 2072 50  0000 R CNN
-F 2 "" H 9150 2200 50  0001 C CNN
-F 3 "" H 9150 2200 50  0001 C CNN
-	1    9150 2200
+P 8250 1050
+F 0 "#PWR0105" H 8250 800 50  0001 C CNN
+F 1 "GND" V 8255 922 50  0000 R CNN
+F 2 "" H 8250 1050 50  0001 C CNN
+F 3 "" H 8250 1050 50  0001 C CNN
+	1    8250 1050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 5D75B1CF
-P 9150 2800
-F 0 "#PWR0106" H 9150 2550 50  0001 C CNN
-F 1 "GND" V 9155 2672 50  0000 R CNN
-F 2 "" H 9150 2800 50  0001 C CNN
-F 3 "" H 9150 2800 50  0001 C CNN
-	1    9150 2800
+P 8250 1650
+F 0 "#PWR0106" H 8250 1400 50  0001 C CNN
+F 1 "GND" V 8255 1522 50  0000 R CNN
+F 2 "" H 8250 1650 50  0001 C CNN
+F 3 "" H 8250 1650 50  0001 C CNN
+	1    8250 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 5D7621D5
-P 8250 2800
-F 0 "#PWR0107" H 8250 2550 50  0001 C CNN
-F 1 "GND" V 8255 2672 50  0000 R CNN
-F 2 "" H 8250 2800 50  0001 C CNN
-F 3 "" H 8250 2800 50  0001 C CNN
-	1    8250 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5D7693B6
-P 8250 3350
-F 0 "#PWR0108" H 8250 3100 50  0001 C CNN
-F 1 "GND" V 8255 3222 50  0000 R CNN
-F 2 "" H 8250 3350 50  0001 C CNN
-F 3 "" H 8250 3350 50  0001 C CNN
-	1    8250 3350
+P 7350 1650
+F 0 "#PWR0107" H 7350 1400 50  0001 C CNN
+F 1 "GND" V 7355 1522 50  0000 R CNN
+F 2 "" H 7350 1650 50  0001 C CNN
+F 3 "" H 7350 1650 50  0001 C CNN
+	1    7350 1650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -911,135 +516,69 @@ Wire Wire Line
 	1165 7303 1165 7295
 Connection ~ 1165 7295
 $Comp
-L power:GND #PWR0111
-U 1 1 5D7ACD79
-P 3525 5200
-F 0 "#PWR0111" H 3525 4950 50  0001 C CNN
-F 1 "GND" V 3530 5072 50  0000 R CNN
-F 2 "" H 3525 5200 50  0001 C CNN
-F 3 "" H 3525 5200 50  0001 C CNN
-	1    3525 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0112
-U 1 1 5D7ADBC5
-P 4800 5200
-F 0 "#PWR0112" H 4800 4950 50  0001 C CNN
-F 1 "GND" V 4805 5072 50  0000 R CNN
-F 2 "" H 4800 5200 50  0001 C CNN
-F 3 "" H 4800 5200 50  0001 C CNN
-	1    4800 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0113
-U 1 1 5D7AEB11
-P 6050 5225
-F 0 "#PWR0113" H 6050 4975 50  0001 C CNN
-F 1 "GND" V 6055 5097 50  0000 R CNN
-F 2 "" H 6050 5225 50  0001 C CNN
-F 3 "" H 6050 5225 50  0001 C CNN
-	1    6050 5225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0114
-U 1 1 5D7AF91E
-P 7325 5225
-F 0 "#PWR0114" H 7325 4975 50  0001 C CNN
-F 1 "GND" V 7330 5097 50  0000 R CNN
-F 2 "" H 7325 5225 50  0001 C CNN
-F 3 "" H 7325 5225 50  0001 C CNN
-	1    7325 5225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0115
-U 1 1 5D7B0D0D
-P 8550 5225
-F 0 "#PWR0115" H 8550 4975 50  0001 C CNN
-F 1 "GND" V 8555 5097 50  0000 R CNN
-F 2 "" H 8550 5225 50  0001 C CNN
-F 3 "" H 8550 5225 50  0001 C CNN
-	1    8550 5225
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0116
 U 1 1 5D7BE159
-P 8100 4450
-F 0 "#PWR0116" H 8100 4200 50  0001 C CNN
-F 1 "GND" V 8105 4322 50  0000 R CNN
-F 2 "" H 8100 4450 50  0001 C CNN
-F 3 "" H 8100 4450 50  0001 C CNN
-	1    8100 4450
+P 5525 6150
+F 0 "#PWR0116" H 5525 5900 50  0001 C CNN
+F 1 "GND" V 5530 6022 50  0000 R CNN
+F 2 "" H 5525 6150 50  0001 C CNN
+F 3 "" H 5525 6150 50  0001 C CNN
+	1    5525 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0117
 U 1 1 5D7C29F2
-P 8100 4350
-F 0 "#PWR0117" H 8100 4200 50  0001 C CNN
-F 1 "+3.3V" H 8115 4523 50  0000 C CNN
-F 2 "" H 8100 4350 50  0001 C CNN
-F 3 "" H 8100 4350 50  0001 C CNN
-	1    8100 4350
+P 5525 6050
+F 0 "#PWR0117" H 5525 5900 50  0001 C CNN
+F 1 "+3.3V" H 5540 6223 50  0000 C CNN
+F 2 "" H 5525 6050 50  0001 C CNN
+F 3 "" H 5525 6050 50  0001 C CNN
+	1    5525 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0118
 U 1 1 5D7C4C24
-P 8250 2100
-F 0 "#PWR0118" H 8250 1950 50  0001 C CNN
-F 1 "+3.3V" H 8265 2273 50  0000 C CNN
-F 2 "" H 8250 2100 50  0001 C CNN
-F 3 "" H 8250 2100 50  0001 C CNN
-	1    8250 2100
+P 7350 950
+F 0 "#PWR0118" H 7350 800 50  0001 C CNN
+F 1 "+3.3V" H 7365 1123 50  0000 C CNN
+F 2 "" H 7350 950 50  0001 C CNN
+F 3 "" H 7350 950 50  0001 C CNN
+	1    7350 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0119
 U 1 1 5D7C5337
-P 9150 2100
-F 0 "#PWR0119" H 9150 1950 50  0001 C CNN
-F 1 "+3.3V" H 9165 2273 50  0000 C CNN
-F 2 "" H 9150 2100 50  0001 C CNN
-F 3 "" H 9150 2100 50  0001 C CNN
-	1    9150 2100
+P 8250 950
+F 0 "#PWR0119" H 8250 800 50  0001 C CNN
+F 1 "+3.3V" H 8265 1123 50  0000 C CNN
+F 2 "" H 8250 950 50  0001 C CNN
+F 3 "" H 8250 950 50  0001 C CNN
+	1    8250 950 
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0120
 U 1 1 5D7C5A6A
-P 8250 2700
-F 0 "#PWR0120" H 8250 2550 50  0001 C CNN
-F 1 "+3.3V" H 8265 2873 50  0000 C CNN
-F 2 "" H 8250 2700 50  0001 C CNN
-F 3 "" H 8250 2700 50  0001 C CNN
-	1    8250 2700
+P 7350 1550
+F 0 "#PWR0120" H 7350 1400 50  0001 C CNN
+F 1 "+3.3V" H 7365 1723 50  0000 C CNN
+F 2 "" H 7350 1550 50  0001 C CNN
+F 3 "" H 7350 1550 50  0001 C CNN
+	1    7350 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+3.3V #PWR0121
 U 1 1 5D7C61D9
-P 9150 2700
-F 0 "#PWR0121" H 9150 2550 50  0001 C CNN
-F 1 "+3.3V" H 9165 2873 50  0000 C CNN
-F 2 "" H 9150 2700 50  0001 C CNN
-F 3 "" H 9150 2700 50  0001 C CNN
-	1    9150 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR0122
-U 1 1 5D7C6A01
-P 8250 3250
-F 0 "#PWR0122" H 8250 3100 50  0001 C CNN
-F 1 "+3.3V" H 8265 3423 50  0000 C CNN
-F 2 "" H 8250 3250 50  0001 C CNN
-F 3 "" H 8250 3250 50  0001 C CNN
-	1    8250 3250
+P 8250 1550
+F 0 "#PWR0121" H 8250 1400 50  0001 C CNN
+F 1 "+3.3V" H 8265 1723 50  0000 C CNN
+F 2 "" H 8250 1550 50  0001 C CNN
+F 3 "" H 8250 1550 50  0001 C CNN
+	1    8250 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1129,12 +668,12 @@ Wire Wire Line
 $Comp
 L myo_shield_pcb-rescue:TE-Connectivity_Micro_Match_215079-6-custom J20
 U 1 1 5D800CA7
-P 10125 3200
-F 0 "J20" H 10203 3241 50  0000 L CNN
-F 1 "TE-Connectivity_Micro_Match_215079-6" H 10203 3150 50  0000 L CNN
-F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x03_Pitch_1.27mm" H 10125 3300 50  0001 C CNN
-F 3 "" H 10125 3300 50  0001 C CNN
-	1    10125 3200
+P 1375 4300
+F 0 "J20" H 1453 4341 50  0000 L CNN
+F 1 "TE-Connectivity_Micro_Match_215079-6" H 1453 4250 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x03_Pitch_1.27mm" H 1375 4400 50  0001 C CNN
+F 3 "" H 1375 4400 50  0001 C CNN
+	1    1375 4300
 	1    0    0    -1  
 $EndComp
 Text Label 1975 1350 0    50   ~ 0
@@ -1157,26 +696,26 @@ Text Label 1000 1400 2    50   ~ 0
 h_Rx
 Text Label 1000 1625 2    50   ~ 0
 l_Tx
-Text Label 9925 3050 2    50   ~ 0
+Text Label 1175 4150 2    50   ~ 0
 h_Tx
-Text Label 9925 3150 2    50   ~ 0
+Text Label 1175 4250 2    50   ~ 0
 l_Rx
-Text Label 9925 3250 2    50   ~ 0
+Text Label 1175 4350 2    50   ~ 0
 h_Rx
-Text Label 9925 2950 2    50   ~ 0
+Text Label 1175 4050 2    50   ~ 0
 l_Tx
 $Comp
 L power:GND #PWR0126
 U 1 1 5D84C619
-P 9925 3350
-F 0 "#PWR0126" H 9925 3100 50  0001 C CNN
-F 1 "GND" V 9930 3222 50  0000 R CNN
-F 2 "" H 9925 3350 50  0001 C CNN
-F 3 "" H 9925 3350 50  0001 C CNN
-	1    9925 3350
+P 1175 4450
+F 0 "#PWR0126" H 1175 4200 50  0001 C CNN
+F 1 "GND" V 1180 4322 50  0000 R CNN
+F 2 "" H 1175 4450 50  0001 C CNN
+F 3 "" H 1175 4450 50  0001 C CNN
+	1    1175 4450
 	0    1    1    0   
 $EndComp
-NoConn ~ 9925 3450
+NoConn ~ 1175 4550
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J3
 U 1 1 5C07E9D3
@@ -1187,5 +726,597 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 4000 2900 50 
 F 3 "~" H 4000 2900 50  0001 C CNN
 	1    4000 2900
 	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8B032B
+P 9475 875
+F 0 "J?" H 9555 867 50  0000 L CNN
+F 1 "I2C_0" H 9555 776 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9475 875 50  0001 C CNN
+F 3 "~" H 9475 875 50  0001 C CNN
+	1    9475 875 
+	1    0    0    -1  
+$EndComp
+Text Label 9275 775  2    50   ~ 0
+SDA_0
+Text Label 9275 875  2    50   ~ 0
+SCL_0
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8B0333
+P 10375 875
+F 0 "J?" H 10455 867 50  0000 L CNN
+F 1 "I2C_1" H 10455 776 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 10375 875 50  0001 C CNN
+F 3 "~" H 10375 875 50  0001 C CNN
+	1    10375 875 
+	1    0    0    -1  
+$EndComp
+Text Label 10175 775  2    50   ~ 0
+SDA_1
+Text Label 10175 875  2    50   ~ 0
+SCL_1
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8B033B
+P 9475 1475
+F 0 "J?" H 9555 1467 50  0000 L CNN
+F 1 "I2C_2" H 9555 1376 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9475 1475 50  0001 C CNN
+F 3 "~" H 9475 1475 50  0001 C CNN
+	1    9475 1475
+	1    0    0    -1  
+$EndComp
+Text Label 9275 1375 2    50   ~ 0
+SDA_2
+Text Label 9275 1475 2    50   ~ 0
+SCL_2
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8B0343
+P 10375 1475
+F 0 "J?" H 10455 1467 50  0000 L CNN
+F 1 "I2C_3" H 10455 1376 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 10375 1475 50  0001 C CNN
+F 3 "~" H 10375 1475 50  0001 C CNN
+	1    10375 1475
+	1    0    0    -1  
+$EndComp
+Text Label 10175 1375 2    50   ~ 0
+SDA_3
+Text Label 10175 1475 2    50   ~ 0
+SCL_3
+$Comp
+L power:GND #PWR?
+U 1 1 5D8B034B
+P 9275 1075
+F 0 "#PWR?" H 9275 825 50  0001 C CNN
+F 1 "GND" V 9280 947 50  0000 R CNN
+F 2 "" H 9275 1075 50  0001 C CNN
+F 3 "" H 9275 1075 50  0001 C CNN
+	1    9275 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8B0351
+P 10175 1075
+F 0 "#PWR?" H 10175 825 50  0001 C CNN
+F 1 "GND" V 10180 947 50  0000 R CNN
+F 2 "" H 10175 1075 50  0001 C CNN
+F 3 "" H 10175 1075 50  0001 C CNN
+	1    10175 1075
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8B0357
+P 10175 1675
+F 0 "#PWR?" H 10175 1425 50  0001 C CNN
+F 1 "GND" V 10180 1547 50  0000 R CNN
+F 2 "" H 10175 1675 50  0001 C CNN
+F 3 "" H 10175 1675 50  0001 C CNN
+	1    10175 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8B035D
+P 9275 1675
+F 0 "#PWR?" H 9275 1425 50  0001 C CNN
+F 1 "GND" V 9280 1547 50  0000 R CNN
+F 2 "" H 9275 1675 50  0001 C CNN
+F 3 "" H 9275 1675 50  0001 C CNN
+	1    9275 1675
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8B0363
+P 9275 975
+F 0 "#PWR?" H 9275 825 50  0001 C CNN
+F 1 "+3.3V" H 9290 1148 50  0000 C CNN
+F 2 "" H 9275 975 50  0001 C CNN
+F 3 "" H 9275 975 50  0001 C CNN
+	1    9275 975 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8B0369
+P 10175 975
+F 0 "#PWR?" H 10175 825 50  0001 C CNN
+F 1 "+3.3V" H 10190 1148 50  0000 C CNN
+F 2 "" H 10175 975 50  0001 C CNN
+F 3 "" H 10175 975 50  0001 C CNN
+	1    10175 975 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8B036F
+P 9275 1575
+F 0 "#PWR?" H 9275 1425 50  0001 C CNN
+F 1 "+3.3V" H 9290 1748 50  0000 C CNN
+F 2 "" H 9275 1575 50  0001 C CNN
+F 3 "" H 9275 1575 50  0001 C CNN
+	1    9275 1575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8B0375
+P 10175 1575
+F 0 "#PWR?" H 10175 1425 50  0001 C CNN
+F 1 "+3.3V" H 10190 1748 50  0000 C CNN
+F 2 "" H 10175 1575 50  0001 C CNN
+F 3 "" H 10175 1575 50  0001 C CNN
+	1    10175 1575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8D0125
+P 7550 2050
+F 0 "J?" H 7630 2042 50  0000 L CNN
+F 1 "I2C_0" H 7630 1951 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7550 2050 50  0001 C CNN
+F 3 "~" H 7550 2050 50  0001 C CNN
+	1    7550 2050
+	1    0    0    -1  
+$EndComp
+Text Label 7350 1950 2    50   ~ 0
+SDA_0
+Text Label 7350 2050 2    50   ~ 0
+SCL_0
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8D012D
+P 8450 2050
+F 0 "J?" H 8530 2042 50  0000 L CNN
+F 1 "I2C_1" H 8530 1951 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 2050 50  0001 C CNN
+F 3 "~" H 8450 2050 50  0001 C CNN
+	1    8450 2050
+	1    0    0    -1  
+$EndComp
+Text Label 8250 1950 2    50   ~ 0
+SDA_1
+Text Label 8250 2050 2    50   ~ 0
+SCL_1
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8D0135
+P 7550 2650
+F 0 "J?" H 7630 2642 50  0000 L CNN
+F 1 "I2C_2" H 7630 2551 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7550 2650 50  0001 C CNN
+F 3 "~" H 7550 2650 50  0001 C CNN
+	1    7550 2650
+	1    0    0    -1  
+$EndComp
+Text Label 7350 2550 2    50   ~ 0
+SDA_2
+Text Label 7350 2650 2    50   ~ 0
+SCL_2
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8D013D
+P 8450 2650
+F 0 "J?" H 8530 2642 50  0000 L CNN
+F 1 "I2C_3" H 8530 2551 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 2650 50  0001 C CNN
+F 3 "~" H 8450 2650 50  0001 C CNN
+	1    8450 2650
+	1    0    0    -1  
+$EndComp
+Text Label 8250 2550 2    50   ~ 0
+SDA_3
+Text Label 8250 2650 2    50   ~ 0
+SCL_3
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D0145
+P 7350 2250
+F 0 "#PWR?" H 7350 2000 50  0001 C CNN
+F 1 "GND" V 7355 2122 50  0000 R CNN
+F 2 "" H 7350 2250 50  0001 C CNN
+F 3 "" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D014B
+P 8250 2250
+F 0 "#PWR?" H 8250 2000 50  0001 C CNN
+F 1 "GND" V 8255 2122 50  0000 R CNN
+F 2 "" H 8250 2250 50  0001 C CNN
+F 3 "" H 8250 2250 50  0001 C CNN
+	1    8250 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D0151
+P 8250 2850
+F 0 "#PWR?" H 8250 2600 50  0001 C CNN
+F 1 "GND" V 8255 2722 50  0000 R CNN
+F 2 "" H 8250 2850 50  0001 C CNN
+F 3 "" H 8250 2850 50  0001 C CNN
+	1    8250 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8D0157
+P 7350 2850
+F 0 "#PWR?" H 7350 2600 50  0001 C CNN
+F 1 "GND" V 7355 2722 50  0000 R CNN
+F 2 "" H 7350 2850 50  0001 C CNN
+F 3 "" H 7350 2850 50  0001 C CNN
+	1    7350 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8D015D
+P 7350 2150
+F 0 "#PWR?" H 7350 2000 50  0001 C CNN
+F 1 "+3.3V" H 7365 2323 50  0000 C CNN
+F 2 "" H 7350 2150 50  0001 C CNN
+F 3 "" H 7350 2150 50  0001 C CNN
+	1    7350 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8D0163
+P 8250 2150
+F 0 "#PWR?" H 8250 2000 50  0001 C CNN
+F 1 "+3.3V" H 8265 2323 50  0000 C CNN
+F 2 "" H 8250 2150 50  0001 C CNN
+F 3 "" H 8250 2150 50  0001 C CNN
+	1    8250 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8D0169
+P 7350 2750
+F 0 "#PWR?" H 7350 2600 50  0001 C CNN
+F 1 "+3.3V" H 7365 2923 50  0000 C CNN
+F 2 "" H 7350 2750 50  0001 C CNN
+F 3 "" H 7350 2750 50  0001 C CNN
+	1    7350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8D016F
+P 8250 2750
+F 0 "#PWR?" H 8250 2600 50  0001 C CNN
+F 1 "+3.3V" H 8265 2923 50  0000 C CNN
+F 2 "" H 8250 2750 50  0001 C CNN
+F 3 "" H 8250 2750 50  0001 C CNN
+	1    8250 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF23
+P 9475 2075
+F 0 "J?" H 9555 2067 50  0000 L CNN
+F 1 "I2C_0" H 9555 1976 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9475 2075 50  0001 C CNN
+F 3 "~" H 9475 2075 50  0001 C CNN
+	1    9475 2075
+	1    0    0    -1  
+$EndComp
+Text Label 9275 1975 2    50   ~ 0
+SDA_0
+Text Label 9275 2075 2    50   ~ 0
+SCL_0
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF2B
+P 10375 2075
+F 0 "J?" H 10455 2067 50  0000 L CNN
+F 1 "I2C_1" H 10455 1976 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 10375 2075 50  0001 C CNN
+F 3 "~" H 10375 2075 50  0001 C CNN
+	1    10375 2075
+	1    0    0    -1  
+$EndComp
+Text Label 10175 1975 2    50   ~ 0
+SDA_1
+Text Label 10175 2075 2    50   ~ 0
+SCL_1
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF33
+P 9475 2675
+F 0 "J?" H 9555 2667 50  0000 L CNN
+F 1 "I2C_2" H 9555 2576 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 9475 2675 50  0001 C CNN
+F 3 "~" H 9475 2675 50  0001 C CNN
+	1    9475 2675
+	1    0    0    -1  
+$EndComp
+Text Label 9275 2575 2    50   ~ 0
+SDA_2
+Text Label 9275 2675 2    50   ~ 0
+SCL_2
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF3B
+P 10375 2675
+F 0 "J?" H 10455 2667 50  0000 L CNN
+F 1 "I2C_3" H 10455 2576 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 10375 2675 50  0001 C CNN
+F 3 "~" H 10375 2675 50  0001 C CNN
+	1    10375 2675
+	1    0    0    -1  
+$EndComp
+Text Label 10175 2575 2    50   ~ 0
+SDA_3
+Text Label 10175 2675 2    50   ~ 0
+SCL_3
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCF43
+P 9275 2275
+F 0 "#PWR?" H 9275 2025 50  0001 C CNN
+F 1 "GND" V 9280 2147 50  0000 R CNN
+F 2 "" H 9275 2275 50  0001 C CNN
+F 3 "" H 9275 2275 50  0001 C CNN
+	1    9275 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCF49
+P 10175 2275
+F 0 "#PWR?" H 10175 2025 50  0001 C CNN
+F 1 "GND" V 10180 2147 50  0000 R CNN
+F 2 "" H 10175 2275 50  0001 C CNN
+F 3 "" H 10175 2275 50  0001 C CNN
+	1    10175 2275
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCF4F
+P 10175 2875
+F 0 "#PWR?" H 10175 2625 50  0001 C CNN
+F 1 "GND" V 10180 2747 50  0000 R CNN
+F 2 "" H 10175 2875 50  0001 C CNN
+F 3 "" H 10175 2875 50  0001 C CNN
+	1    10175 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCF55
+P 9275 2875
+F 0 "#PWR?" H 9275 2625 50  0001 C CNN
+F 1 "GND" V 9280 2747 50  0000 R CNN
+F 2 "" H 9275 2875 50  0001 C CNN
+F 3 "" H 9275 2875 50  0001 C CNN
+	1    9275 2875
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCF5B
+P 9275 2175
+F 0 "#PWR?" H 9275 2025 50  0001 C CNN
+F 1 "+3.3V" H 9290 2348 50  0000 C CNN
+F 2 "" H 9275 2175 50  0001 C CNN
+F 3 "" H 9275 2175 50  0001 C CNN
+	1    9275 2175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCF61
+P 10175 2175
+F 0 "#PWR?" H 10175 2025 50  0001 C CNN
+F 1 "+3.3V" H 10190 2348 50  0000 C CNN
+F 2 "" H 10175 2175 50  0001 C CNN
+F 3 "" H 10175 2175 50  0001 C CNN
+	1    10175 2175
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCF67
+P 9275 2775
+F 0 "#PWR?" H 9275 2625 50  0001 C CNN
+F 1 "+3.3V" H 9290 2948 50  0000 C CNN
+F 2 "" H 9275 2775 50  0001 C CNN
+F 3 "" H 9275 2775 50  0001 C CNN
+	1    9275 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCF6D
+P 10175 2775
+F 0 "#PWR?" H 10175 2625 50  0001 C CNN
+F 1 "+3.3V" H 10190 2948 50  0000 C CNN
+F 2 "" H 10175 2775 50  0001 C CNN
+F 3 "" H 10175 2775 50  0001 C CNN
+	1    10175 2775
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF73
+P 7550 3250
+F 0 "J?" H 7630 3242 50  0000 L CNN
+F 1 "I2C_0" H 7630 3151 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7550 3250 50  0001 C CNN
+F 3 "~" H 7550 3250 50  0001 C CNN
+	1    7550 3250
+	1    0    0    -1  
+$EndComp
+Text Label 7350 3150 2    50   ~ 0
+SDA_0
+Text Label 7350 3250 2    50   ~ 0
+SCL_0
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF7B
+P 8450 3250
+F 0 "J?" H 8530 3242 50  0000 L CNN
+F 1 "I2C_1" H 8530 3151 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 3250 50  0001 C CNN
+F 3 "~" H 8450 3250 50  0001 C CNN
+	1    8450 3250
+	1    0    0    -1  
+$EndComp
+Text Label 8250 3150 2    50   ~ 0
+SDA_1
+Text Label 8250 3250 2    50   ~ 0
+SCL_1
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF83
+P 7550 3850
+F 0 "J?" H 7630 3842 50  0000 L CNN
+F 1 "I2C_2" H 7630 3751 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7550 3850 50  0001 C CNN
+F 3 "~" H 7550 3850 50  0001 C CNN
+	1    7550 3850
+	1    0    0    -1  
+$EndComp
+Text Label 7350 3750 2    50   ~ 0
+SDA_2
+Text Label 7350 3850 2    50   ~ 0
+SCL_2
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 5D8DCF8B
+P 8450 3850
+F 0 "J?" H 8530 3842 50  0000 L CNN
+F 1 "I2C_3" H 8530 3751 50  0000 L CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 8450 3850 50  0001 C CNN
+F 3 "~" H 8450 3850 50  0001 C CNN
+	1    8450 3850
+	1    0    0    -1  
+$EndComp
+Text Label 8250 3750 2    50   ~ 0
+SDA_3
+Text Label 8250 3850 2    50   ~ 0
+SCL_3
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCF93
+P 7350 3450
+F 0 "#PWR?" H 7350 3200 50  0001 C CNN
+F 1 "GND" V 7355 3322 50  0000 R CNN
+F 2 "" H 7350 3450 50  0001 C CNN
+F 3 "" H 7350 3450 50  0001 C CNN
+	1    7350 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCF99
+P 8250 3450
+F 0 "#PWR?" H 8250 3200 50  0001 C CNN
+F 1 "GND" V 8255 3322 50  0000 R CNN
+F 2 "" H 8250 3450 50  0001 C CNN
+F 3 "" H 8250 3450 50  0001 C CNN
+	1    8250 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCF9F
+P 8250 4050
+F 0 "#PWR?" H 8250 3800 50  0001 C CNN
+F 1 "GND" V 8255 3922 50  0000 R CNN
+F 2 "" H 8250 4050 50  0001 C CNN
+F 3 "" H 8250 4050 50  0001 C CNN
+	1    8250 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D8DCFA5
+P 7350 4050
+F 0 "#PWR?" H 7350 3800 50  0001 C CNN
+F 1 "GND" V 7355 3922 50  0000 R CNN
+F 2 "" H 7350 4050 50  0001 C CNN
+F 3 "" H 7350 4050 50  0001 C CNN
+	1    7350 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCFAB
+P 7350 3350
+F 0 "#PWR?" H 7350 3200 50  0001 C CNN
+F 1 "+3.3V" H 7365 3523 50  0000 C CNN
+F 2 "" H 7350 3350 50  0001 C CNN
+F 3 "" H 7350 3350 50  0001 C CNN
+	1    7350 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCFB1
+P 8250 3350
+F 0 "#PWR?" H 8250 3200 50  0001 C CNN
+F 1 "+3.3V" H 8265 3523 50  0000 C CNN
+F 2 "" H 8250 3350 50  0001 C CNN
+F 3 "" H 8250 3350 50  0001 C CNN
+	1    8250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCFB7
+P 7350 3950
+F 0 "#PWR?" H 7350 3800 50  0001 C CNN
+F 1 "+3.3V" H 7365 4123 50  0000 C CNN
+F 2 "" H 7350 3950 50  0001 C CNN
+F 3 "" H 7350 3950 50  0001 C CNN
+	1    7350 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D8DCFBD
+P 8250 3950
+F 0 "#PWR?" H 8250 3800 50  0001 C CNN
+F 1 "+3.3V" H 8265 4123 50  0000 C CNN
+F 2 "" H 8250 3950 50  0001 C CNN
+F 3 "" H 8250 3950 50  0001 C CNN
+	1    8250 3950
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

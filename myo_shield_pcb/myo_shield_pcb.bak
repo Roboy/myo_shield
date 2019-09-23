@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:myo_shield_pcb-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -333,7 +333,7 @@ U 1 1 5CD5BBC2
 P 4650 4900
 F 0 "R4" V 4650 4950 50  0000 C CNN
 F 1 "1k" V 4650 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 4580 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 4900 50  0001 C CNN
 F 3 "~" H 4650 4900 50  0001 C CNN
 	1    4650 4900
 	0    1    1    0   
@@ -344,7 +344,7 @@ U 1 1 5CD5BDB9
 P 4650 5000
 F 0 "R5" V 4650 5050 50  0000 C CNN
 F 1 "1k" V 4650 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 4580 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 5000 50  0001 C CNN
 F 3 "~" H 4650 5000 50  0001 C CNN
 	1    4650 5000
 	0    1    1    0   
@@ -355,7 +355,7 @@ U 1 1 5CD5BDF7
 P 4650 5100
 F 0 "R6" V 4650 5150 50  0000 C CNN
 F 1 "1k" V 4650 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 4580 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 5100 50  0001 C CNN
 F 3 "~" H 4650 5100 50  0001 C CNN
 	1    4650 5100
 	0    1    1    0   
@@ -366,7 +366,7 @@ U 1 1 5CD5C230
 P 3375 4900
 F 0 "R1" V 3375 4950 50  0000 C CNN
 F 1 "1k" V 3375 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 3305 4900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3305 4900 50  0001 C CNN
 F 3 "~" H 3375 4900 50  0001 C CNN
 	1    3375 4900
 	0    1    1    0   
@@ -377,7 +377,7 @@ U 1 1 5CD5C236
 P 3375 5000
 F 0 "R2" V 3375 5050 50  0000 C CNN
 F 1 "1k" V 3375 4950 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 3305 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3305 5000 50  0001 C CNN
 F 3 "~" H 3375 5000 50  0001 C CNN
 	1    3375 5000
 	0    1    1    0   
@@ -388,7 +388,7 @@ U 1 1 5CD5C23C
 P 3375 5100
 F 0 "R3" V 3375 5150 50  0000 C CNN
 F 1 "1k" V 3375 5050 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 3305 5100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3305 5100 50  0001 C CNN
 F 3 "~" H 3375 5100 50  0001 C CNN
 	1    3375 5100
 	0    1    1    0   
@@ -399,7 +399,7 @@ U 1 1 5CD5C6F9
 P 5900 4925
 F 0 "R7" V 5900 4975 50  0000 C CNN
 F 1 "1k" V 5900 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5830 4925 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 4925 50  0001 C CNN
 F 3 "~" H 5900 4925 50  0001 C CNN
 	1    5900 4925
 	0    1    1    0   
@@ -410,7 +410,7 @@ U 1 1 5CD5C6FF
 P 5900 5025
 F 0 "R8" V 5900 5075 50  0000 C CNN
 F 1 "1k" V 5900 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5830 5025 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 5025 50  0001 C CNN
 F 3 "~" H 5900 5025 50  0001 C CNN
 	1    5900 5025
 	0    1    1    0   
@@ -421,7 +421,7 @@ U 1 1 5CD5C705
 P 5900 5125
 F 0 "R9" V 5900 5175 50  0000 C CNN
 F 1 "1k" V 5900 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 5830 5125 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5830 5125 50  0001 C CNN
 F 3 "~" H 5900 5125 50  0001 C CNN
 	1    5900 5125
 	0    1    1    0   
@@ -432,7 +432,7 @@ U 1 1 5CD5CBAB
 P 7175 4925
 F 0 "R10" V 7175 4975 50  0000 C CNN
 F 1 "1k" V 7175 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 7105 4925 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7105 4925 50  0001 C CNN
 F 3 "~" H 7175 4925 50  0001 C CNN
 	1    7175 4925
 	0    1    1    0   
@@ -443,7 +443,7 @@ U 1 1 5CD5CBB1
 P 7175 5025
 F 0 "R11" V 7175 5075 50  0000 C CNN
 F 1 "1k" V 7175 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 7105 5025 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7105 5025 50  0001 C CNN
 F 3 "~" H 7175 5025 50  0001 C CNN
 	1    7175 5025
 	0    1    1    0   
@@ -454,7 +454,7 @@ U 1 1 5CD5CBB7
 P 7175 5125
 F 0 "R12" V 7175 5175 50  0000 C CNN
 F 1 "1k" V 7175 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 7105 5125 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7105 5125 50  0001 C CNN
 F 3 "~" H 7175 5125 50  0001 C CNN
 	1    7175 5125
 	0    1    1    0   
@@ -465,7 +465,7 @@ U 1 1 5CD5CD96
 P 8400 4925
 F 0 "R13" V 8400 4975 50  0000 C CNN
 F 1 "1k" V 8400 4875 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 8330 4925 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 4925 50  0001 C CNN
 F 3 "~" H 8400 4925 50  0001 C CNN
 	1    8400 4925
 	0    1    1    0   
@@ -476,7 +476,7 @@ U 1 1 5CD5CD9C
 P 8400 5025
 F 0 "R14" V 8400 5075 50  0000 C CNN
 F 1 "1k" V 8400 4975 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 8330 5025 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 5025 50  0001 C CNN
 F 3 "~" H 8400 5025 50  0001 C CNN
 	1    8400 5025
 	0    1    1    0   
@@ -487,7 +487,7 @@ U 1 1 5CD5CDA2
 P 8400 5125
 F 0 "R15" V 8400 5175 50  0000 C CNN
 F 1 "1k" V 8400 5075 50  0000 C CNN
-F 2 "Resistor_SMD:R_01005_0402Metric" V 8330 5125 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8330 5125 50  0001 C CNN
 F 3 "~" H 8400 5125 50  0001 C CNN
 	1    8400 5125
 	0    1    1    0   
@@ -796,7 +796,7 @@ F 3 "" H 6300 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L motor_drive_9y_protection-eagle-import:+5V #P+0101
+L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+0101
 U 1 1 5D72594A
 P 6200 4350
 F 0 "#P+0101" H 6200 4350 50  0001 C CNN
@@ -1076,7 +1076,7 @@ F 3 "" H 3700 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L motor_drive_9y_protection-eagle-import:+5V #P+0102
+L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+0102
 U 1 1 5D7D0E0F
 P 4300 3300
 F 0 "#P+0102" H 4300 3300 50  0001 C CNN
@@ -1087,7 +1087,7 @@ F 3 "" H 4300 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L motor_drive_9y_protection-eagle-import:+5V #P+0103
+L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+0103
 U 1 1 5D7D4D64
 P 5400 2400
 F 0 "#P+0103" H 5400 2400 50  0001 C CNN
@@ -1098,7 +1098,7 @@ F 3 "" H 5400 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L motor_drive_9y_protection-eagle-import:+5V #P+0104
+L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+0104
 U 1 1 5D7DC266
 P 1300 6425
 F 0 "#P+0104" H 1300 6425 50  0001 C CNN
@@ -1127,7 +1127,7 @@ Connection ~ 1300 6695
 Wire Wire Line
 	1300 6695 1765 6695
 $Comp
-L custom:TE-Connectivity_Micro_Match_215079-6 J20
+L myo_shield_pcb-rescue:TE-Connectivity_Micro_Match_215079-6-custom J20
 U 1 1 5D800CA7
 P 10125 3200
 F 0 "J20" H 10203 3241 50  0000 L CNN
