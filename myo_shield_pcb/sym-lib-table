@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name myo_shield_pcb-rescue)(type Legacy)(uri ${KIPRJMOD}/myo_shield_pcb-rescue.lib)(options "")(descr ""))
+  (lib (name custom)(type Legacy)(uri /home/letrend/workspace/myo_shield/kicad_db/lib/custom.lib)(options "")(descr ""))
 )
