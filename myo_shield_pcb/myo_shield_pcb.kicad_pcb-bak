@@ -3363,7 +3363,7 @@
   (gr_text 5V (at 171.3 79.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text myo_shield_rev0.5 (at 155.1 125.8) (layer F.SilkS) (tstamp 5D6DF6C1)
+  (gr_text myo_shield_rev0.5 (at 115.2 92.2 90) (layer F.SilkS) (tstamp 5D6DF6C1)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_line (start 181.1 87) (end 177 87) (layer Edge.Cuts) (width 0.05))
