@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4000 875  2    50   ~ 0
+Text Label 6825 1200 2    50   ~ 0
 power_sense_n
 Text Label 10025 1025 2    50   ~ 0
 SDA_0_HEAD
@@ -56,7 +56,7 @@ F 3 "~" H 1325 5900 50  0001 C CNN
 	1    1325 5900
 	1    0    0    -1  
 $EndComp
-Text Label 4500 875  0    50   ~ 0
+Text Label 4500 1475 0    50   ~ 0
 NEOPX
 Text Label 865  6995 2    50   ~ 0
 NEOPX
@@ -662,93 +662,93 @@ F 3 "~" H 7025 1800 50  0001 C CNN
 	1    7025 1800
 	1    0    0    -1  
 $EndComp
-Text Label 4500 1575 0    50   ~ 0
-SDA_0_HIP_LEFT
-Text Label 4500 1475 0    50   ~ 0
-SCL_0_HIP_LEFT
-Text Label 4500 1775 0    50   ~ 0
-SDA_1_HIP_LEFT
-Text Label 4500 1675 0    50   ~ 0
-SCL_1_HIP_LEFT
 Text Label 4500 1975 0    50   ~ 0
+SDA_0_HIP_LEFT
+Text Label 4000 1975 2    50   ~ 0
+SCL_0_HIP_LEFT
+Text Label 4500 2075 0    50   ~ 0
+SDA_1_HIP_LEFT
+Text Label 4000 2075 2    50   ~ 0
+SCL_1_HIP_LEFT
+Text Label 4500 2175 0    50   ~ 0
 SDA_2_HIP_LEFT
-Text Label 4500 1875 0    50   ~ 0
+Text Label 4000 2175 2    50   ~ 0
 SCL_2_HIP_LEFT
-Text Label 6825 1600 2    50   ~ 0
+Text Label 7325 1500 0    50   ~ 0
 SDA_0_HEAD
 Text Label 6825 1500 2    50   ~ 0
 SCL_0_HEAD
-Text Label 6825 1800 2    50   ~ 0
-SDA_1_HEAD
-Text Label 6825 1700 2    50   ~ 0
-SCL_1_HEAD
-Text Label 6825 2000 2    50   ~ 0
-SDA_2_HEAD
-Text Label 6825 1900 2    50   ~ 0
-SCL_2_HEAD
-Text Label 6825 2200 2    50   ~ 0
-SDA_3_HEAD
-Text Label 6825 2100 2    50   ~ 0
-SCL_3_HEAD
 Text Label 7325 1600 0    50   ~ 0
-SDA_0_SHOULDER_LEFT
-Text Label 7325 1500 0    50   ~ 0
-SCL_0_SHOULDER_LEFT
-Text Label 7325 1800 0    50   ~ 0
-SDA_1_SHOULDER_LEFT
+SDA_1_HEAD
+Text Label 6825 1600 2    50   ~ 0
+SCL_1_HEAD
 Text Label 7325 1700 0    50   ~ 0
-SCL_1_SHOULDER_LEFT
-Text Label 7325 2000 0    50   ~ 0
-SDA_2_SHOULDER_LEFT
+SDA_2_HEAD
+Text Label 6825 1700 2    50   ~ 0
+SCL_2_HEAD
+Text Label 7325 1800 0    50   ~ 0
+SDA_3_HEAD
+Text Label 6825 1800 2    50   ~ 0
+SCL_3_HEAD
 Text Label 7325 1900 0    50   ~ 0
+SDA_0_SHOULDER_LEFT
+Text Label 6825 1900 2    50   ~ 0
+SCL_0_SHOULDER_LEFT
+Text Label 7325 2000 0    50   ~ 0
+SDA_1_SHOULDER_LEFT
+Text Label 6825 2000 2    50   ~ 0
+SCL_1_SHOULDER_LEFT
+Text Label 7325 2100 0    50   ~ 0
+SDA_2_SHOULDER_LEFT
+Text Label 6825 2100 2    50   ~ 0
 SCL_2_SHOULDER_LEFT
 Text Label 7325 2200 0    50   ~ 0
 SDA_3_SHOULDER_LEFT
-Text Label 7325 2100 0    50   ~ 0
+Text Label 6825 2200 2    50   ~ 0
 SCL_3_SHOULDER_LEFT
-Text Label 4000 1575 2    50   ~ 0
+Text Label 4500 1575 0    50   ~ 0
 SDA_0_SHOULDER_RIGHT
-Text Label 4000 1475 2    50   ~ 0
+Text Label 4000 1575 2    50   ~ 0
 SCL_0_SHOULDER_RIGHT
-Text Label 4000 1775 2    50   ~ 0
+Text Label 4500 1675 0    50   ~ 0
 SDA_1_SHOULDER_RIGHT
 Text Label 4000 1675 2    50   ~ 0
 SCL_1_SHOULDER_RIGHT
-Text Label 4000 1975 2    50   ~ 0
+Text Label 4500 1775 0    50   ~ 0
 SDA_2_SHOULDER_RIGHT
-Text Label 4000 1875 2    50   ~ 0
+Text Label 4000 1775 2    50   ~ 0
 SCL_2_SHOULDER_RIGHT
-Text Label 4000 2175 2    50   ~ 0
+Text Label 4500 1875 0    50   ~ 0
 SDA_3_SHOULDER_RIGHT
-Text Label 4000 2075 2    50   ~ 0
+Text Label 4000 1875 2    50   ~ 0
 SCL_3_SHOULDER_RIGHT
-Text Label 4000 2375 2    50   ~ 0
-SDA_0_HIP_RIGHT
-Text Label 4500 2375 0    50   ~ 0
-SCL_0_HIP_RIGHT
 Text Label 4500 2475 0    50   ~ 0
-SDA_1_HIP_RIGHT
+SDA_0_HIP_RIGHT
 Text Label 4000 2475 2    50   ~ 0
-SCL_1_HIP_RIGHT
+SCL_0_HIP_RIGHT
 Text Label 4500 2575 0    50   ~ 0
-SDA_2_HIP_RIGHT
+SDA_1_HIP_RIGHT
 Text Label 4000 2575 2    50   ~ 0
+SCL_1_HIP_RIGHT
+Text Label 4500 2675 0    50   ~ 0
+SDA_2_HIP_RIGHT
+Text Label 4000 2675 2    50   ~ 0
 SCL_2_HIP_RIGHT
-Text Label 4000 975  2    50   ~ 0
+Text Label 7325 900  0    50   ~ 0
 icebus0_tx
-Text Label 4000 1075 2    50   ~ 0
+Text Label 6825 900  2    50   ~ 0
 icebus0_rx
-Text Label 4000 1175 2    50   ~ 0
+Text Label 7325 1000 0    50   ~ 0
 icebus1_tx
-Text Label 4000 1275 2    50   ~ 0
+Text Label 6825 1000 2    50   ~ 0
 icebus1_rx
-Text Label 4500 975  0    50   ~ 0
+Text Label 7325 1100 0    50   ~ 0
 icebus2_tx
-Text Label 4500 1075 0    50   ~ 0
+Text Label 6825 1100 2    50   ~ 0
 icebus2_rx
-Text Label 4500 1175 0    50   ~ 0
+Text Label 4500 875  0    50   ~ 0
 icebus3_tx
-Text Label 4500 1275 0    50   ~ 0
+Text Label 4000 875  2    50   ~ 0
 icebus3_rx
 $Sheet
 S 1175 1225 950  400 
@@ -1216,21 +1216,21 @@ F 3 "" H 7950 4825 50  0001 C CNN
 	1    7950 4825
 	0    1    1    0   
 $EndComp
-Text Label 6825 900  2    50   ~ 0
+Text Label 4500 975  0    50   ~ 0
 icebus4_tx
-Text Label 6825 1000 2    50   ~ 0
+Text Label 4000 975  2    50   ~ 0
 icebus4_rx
-Text Label 6825 1100 2    50   ~ 0
+Text Label 4500 1075 0    50   ~ 0
 icebus5_tx
-Text Label 6825 1200 2    50   ~ 0
+Text Label 4000 1075 2    50   ~ 0
 icebus5_rx
-Text Label 7325 900  0    50   ~ 0
+Text Label 4500 1175 0    50   ~ 0
 icebus6_tx
-Text Label 7325 1000 0    50   ~ 0
+Text Label 4000 1175 2    50   ~ 0
 icebus6_rx
-Text Label 7325 1100 0    50   ~ 0
+Text Label 4500 1275 0    50   ~ 0
 icebus7_tx
-Text Label 7325 1200 0    50   ~ 0
+Text Label 4000 1275 2    50   ~ 0
 icebus7_rx
 $Comp
 L Connector:Conn_01x10_Female J14
@@ -1262,41 +1262,41 @@ Text Label 10025 6300 2    50   ~ 0
 SDA_3_HIP_RIGHT
 Text Label 10025 6200 2    50   ~ 0
 SCL_3_HIP_RIGHT
-Text Label 4000 2675 2    50   ~ 0
+Text Label 4000 2775 2    50   ~ 0
 SCL_3_HIP_RIGHT
-Text Label 4500 2675 0    50   ~ 0
+Text Label 4500 2775 0    50   ~ 0
 SDA_3_HIP_RIGHT
-Text Label 4500 2175 0    50   ~ 0
+Text Label 4500 2375 0    50   ~ 0
 SDA_3_HIP_LEFT
-Text Label 4500 2075 0    50   ~ 0
+Text Label 4000 2375 2    50   ~ 0
 SCL_3_HIP_LEFT
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J16
 U 1 1 5D8B4A78
 P 5375 5350
-F 0 "J?" H 5403 5326 50  0000 L CNN
+F 0 "J16" H 5403 5326 50  0000 L CNN
 F 1 "i2c_auxiliary0" H 5403 5235 50  0000 L CNN
-F 2 "" H 5375 5350 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 5375 5350 50  0001 C CNN
 F 3 "~" H 5375 5350 50  0001 C CNN
 	1    5375 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged123 JP?
+L Jumper:SolderJumper_3_Bridged123 JP1
 U 1 1 5D8B5A5F
 P 4325 5350
-F 0 "JP?" V 4371 5418 50  0000 L CNN
+F 0 "JP1" V 4371 5418 50  0000 L CNN
 F 1 "power_selector" V 4280 5418 50  0000 L CNN
-F 2 "" H 4325 5350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4325 5350 50  0001 C CNN
 F 3 "~" H 4325 5350 50  0001 C CNN
 	1    4325 5350
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0209
 U 1 1 5D8B5E13
 P 5175 5250
-F 0 "#PWR?" H 5175 5000 50  0001 C CNN
+F 0 "#PWR0209" H 5175 5000 50  0001 C CNN
 F 1 "GND" V 5180 5122 50  0000 R CNN
 F 2 "" H 5175 5250 50  0001 C CNN
 F 3 "" H 5175 5250 50  0001 C CNN
@@ -1304,10 +1304,10 @@ F 3 "" H 5175 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+?
+L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+0105
 U 1 1 5D8B61CA
 P 4225 5150
-F 0 "#P+?" H 4225 5150 50  0001 C CNN
+F 0 "#P+0105" H 4225 5150 50  0001 C CNN
 F 1 "+5V" V 4225 5219 59  0000 L CNN
 F 2 "" H 4225 5150 50  0001 C CNN
 F 3 "" H 4225 5150 50  0001 C CNN
@@ -1315,17 +1315,17 @@ F 3 "" H 4225 5150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0210
 U 1 1 5D8B6213
 P 4325 5550
-F 0 "#PWR?" H 4325 5400 50  0001 C CNN
+F 0 "#PWR0210" H 4325 5400 50  0001 C CNN
 F 1 "+3.3V" V 4325 5800 50  0000 C CNN
 F 2 "" H 4325 5550 50  0001 C CNN
 F 3 "" H 4325 5550 50  0001 C CNN
 	1    4325 5550
 	0    -1   -1   0   
 $EndComp
-Text Label 6825 2400 2    50   ~ 0
+Text Label 6825 2800 2    50   ~ 0
 SCL_0_AUXILIARY
 Text Label 5175 5450 2    50   ~ 0
 SCL_0_AUXILIARY
@@ -1334,59 +1334,26 @@ Wire Wire Line
 Text Label 5175 5550 2    50   ~ 0
 SDA_0_AUXILIARY
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J18
 U 1 1 5D8B7808
 P 7800 5350
-F 0 "J?" H 7828 5326 50  0000 L CNN
+F 0 "J18" H 7828 5326 50  0000 L CNN
 F 1 "i2c_auxiliary1" H 7828 5235 50  0000 L CNN
-F 2 "" H 7800 5350 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7800 5350 50  0001 C CNN
 F 3 "~" H 7800 5350 50  0001 C CNN
 	1    7800 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged123 JP?
-U 1 1 5D8B780F
-P 6750 5350
-F 0 "JP?" V 6796 5418 50  0000 L CNN
-F 1 "power_selector" V 6705 5418 50  0000 L CNN
-F 2 "" H 6750 5350 50  0001 C CNN
-F 3 "~" H 6750 5350 50  0001 C CNN
-	1    6750 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0211
 U 1 1 5D8B7816
 P 7600 5250
-F 0 "#PWR?" H 7600 5000 50  0001 C CNN
+F 0 "#PWR0211" H 7600 5000 50  0001 C CNN
 F 1 "GND" V 7605 5122 50  0000 R CNN
 F 2 "" H 7600 5250 50  0001 C CNN
 F 3 "" H 7600 5250 50  0001 C CNN
 	1    7600 5250
 	0    1    1    0   
-$EndComp
-$Comp
-L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+?
-U 1 1 5D8B781C
-P 6650 5150
-F 0 "#P+?" H 6650 5150 50  0001 C CNN
-F 1 "+5V" V 6650 5219 59  0000 L CNN
-F 2 "" H 6650 5150 50  0001 C CNN
-F 3 "" H 6650 5150 50  0001 C CNN
-	1    6650 5150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5D8B7822
-P 6750 5550
-F 0 "#PWR?" H 6750 5400 50  0001 C CNN
-F 1 "+3.3V" V 6750 5800 50  0000 C CNN
-F 2 "" H 6750 5550 50  0001 C CNN
-F 3 "" H 6750 5550 50  0001 C CNN
-	1    6750 5550
-	0    -1   -1   0   
 $EndComp
 Text Label 7600 5450 2    50   ~ 0
 SCL_1_AUXILIARY
@@ -1395,59 +1362,26 @@ Wire Wire Line
 Text Label 7600 5550 2    50   ~ 0
 SDA_1_AUXILIARY
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J17
 U 1 1 5D8B8E50
 P 5375 5950
-F 0 "J?" H 5403 5926 50  0000 L CNN
+F 0 "J17" H 5403 5926 50  0000 L CNN
 F 1 "i2c_auxiliary2" H 5403 5835 50  0000 L CNN
-F 2 "" H 5375 5950 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 5375 5950 50  0001 C CNN
 F 3 "~" H 5375 5950 50  0001 C CNN
 	1    5375 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged123 JP?
-U 1 1 5D8B8E57
-P 4325 5950
-F 0 "JP?" V 4371 6018 50  0000 L CNN
-F 1 "power_selector" V 4280 6018 50  0000 L CNN
-F 2 "" H 4325 5950 50  0001 C CNN
-F 3 "~" H 4325 5950 50  0001 C CNN
-	1    4325 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0213
 U 1 1 5D8B8E5E
 P 5175 5850
-F 0 "#PWR?" H 5175 5600 50  0001 C CNN
+F 0 "#PWR0213" H 5175 5600 50  0001 C CNN
 F 1 "GND" V 5180 5722 50  0000 R CNN
 F 2 "" H 5175 5850 50  0001 C CNN
 F 3 "" H 5175 5850 50  0001 C CNN
 	1    5175 5850
 	0    1    1    0   
-$EndComp
-$Comp
-L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+?
-U 1 1 5D8B8E64
-P 4225 5750
-F 0 "#P+?" H 4225 5750 50  0001 C CNN
-F 1 "+5V" V 4225 5819 59  0000 L CNN
-F 2 "" H 4225 5750 50  0001 C CNN
-F 3 "" H 4225 5750 50  0001 C CNN
-	1    4225 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5D8B8E6A
-P 4325 6150
-F 0 "#PWR?" H 4325 6000 50  0001 C CNN
-F 1 "+3.3V" V 4325 6400 50  0000 C CNN
-F 2 "" H 4325 6150 50  0001 C CNN
-F 3 "" H 4325 6150 50  0001 C CNN
-	1    4325 6150
-	0    -1   -1   0   
 $EndComp
 Text Label 5175 6050 2    50   ~ 0
 SCL_2_AUXILIARY
@@ -1456,78 +1390,102 @@ Wire Wire Line
 Text Label 5175 6150 2    50   ~ 0
 SDA_2_AUXILIARY
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J21
 U 1 1 5D8B8E73
 P 7800 5950
-F 0 "J?" H 7828 5926 50  0000 L CNN
+F 0 "J21" H 7828 5926 50  0000 L CNN
 F 1 "i2c_auxiliary3" H 7828 5835 50  0000 L CNN
-F 2 "" H 7800 5950 50  0001 C CNN
+F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x02_Pitch_1.27mm" H 7800 5950 50  0001 C CNN
 F 3 "~" H 7800 5950 50  0001 C CNN
 	1    7800 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged123 JP?
-U 1 1 5D8B8E7A
-P 6750 5950
-F 0 "JP?" V 6796 6018 50  0000 L CNN
-F 1 "power_selector" V 6705 6018 50  0000 L CNN
-F 2 "" H 6750 5950 50  0001 C CNN
-F 3 "~" H 6750 5950 50  0001 C CNN
-	1    6750 5950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0215
 U 1 1 5D8B8E81
 P 7600 5850
-F 0 "#PWR?" H 7600 5600 50  0001 C CNN
+F 0 "#PWR0215" H 7600 5600 50  0001 C CNN
 F 1 "GND" V 7605 5722 50  0000 R CNN
 F 2 "" H 7600 5850 50  0001 C CNN
 F 3 "" H 7600 5850 50  0001 C CNN
 	1    7600 5850
 	0    1    1    0   
 $EndComp
-$Comp
-L myo_shield_pcb-rescue:+5V-motor_drive_9y_protection-eagle-import #P+?
-U 1 1 5D8B8E87
-P 6650 5750
-F 0 "#P+?" H 6650 5750 50  0001 C CNN
-F 1 "+5V" V 6650 5819 59  0000 L CNN
-F 2 "" H 6650 5750 50  0001 C CNN
-F 3 "" H 6650 5750 50  0001 C CNN
-	1    6650 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5D8B8E8D
-P 6750 6150
-F 0 "#PWR?" H 6750 6000 50  0001 C CNN
-F 1 "+3.3V" V 6750 6400 50  0000 C CNN
-F 2 "" H 6750 6150 50  0001 C CNN
-F 3 "" H 6750 6150 50  0001 C CNN
-	1    6750 6150
-	0    -1   -1   0   
-$EndComp
 Text Label 7600 6050 2    50   ~ 0
 SCL_3_AUXILIARY
-Wire Wire Line
-	6900 5950 7600 5950
 Text Label 7600 6150 2    50   ~ 0
 SDA_3_AUXILIARY
-Text Label 6825 2500 2    50   ~ 0
+Text Label 7325 2800 0    50   ~ 0
 SDA_0_AUXILIARY
-Text Label 7325 2400 0    50   ~ 0
+Text Label 6825 2700 2    50   ~ 0
 SCL_1_AUXILIARY
-Text Label 7325 2500 0    50   ~ 0
+Text Label 7325 2700 0    50   ~ 0
 SDA_1_AUXILIARY
 Text Label 6825 2600 2    50   ~ 0
 SCL_2_AUXILIARY
-Text Label 6825 2700 2    50   ~ 0
-SDA_2_AUXILIARY
 Text Label 7325 2600 0    50   ~ 0
+SDA_2_AUXILIARY
+Text Label 6825 2500 2    50   ~ 0
 SCL_3_AUXILIARY
-Text Label 7325 2700 0    50   ~ 0
+Text Label 7325 2500 0    50   ~ 0
 SDA_3_AUXILIARY
+Wire Wire Line
+	4475 5350 4475 5675
+Connection ~ 4475 5350
+Wire Wire Line
+	4475 5675 6900 5675
+Wire Wire Line
+	6900 5675 6900 5350
+Connection ~ 4475 5675
+Wire Wire Line
+	4475 5675 4475 5950
+Wire Wire Line
+	7600 5950 6900 5950
+Wire Wire Line
+	6900 5950 6900 5675
+Connection ~ 6900 5675
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D8CB9D5
+P 3450 7625
+F 0 "H?" H 3550 7671 50  0000 L CNN
+F 1 "MountingHole" H 3550 7580 50  0000 L CNN
+F 2 "" H 3450 7625 50  0001 C CNN
+F 3 "~" H 3450 7625 50  0001 C CNN
+	1    3450 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D8CBD75
+P 3450 7425
+F 0 "H?" H 3550 7471 50  0000 L CNN
+F 1 "MountingHole" H 3550 7380 50  0000 L CNN
+F 2 "" H 3450 7425 50  0001 C CNN
+F 3 "~" H 3450 7425 50  0001 C CNN
+	1    3450 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D8CBF35
+P 2700 7625
+F 0 "H?" H 2800 7671 50  0000 L CNN
+F 1 "MountingHole" H 2800 7580 50  0000 L CNN
+F 2 "" H 2700 7625 50  0001 C CNN
+F 3 "~" H 2700 7625 50  0001 C CNN
+	1    2700 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D8CBF3C
+P 2700 7425
+F 0 "H?" H 2800 7471 50  0000 L CNN
+F 1 "MountingHole" H 2800 7380 50  0000 L CNN
+F 2 "" H 2700 7425 50  0001 C CNN
+F 3 "~" H 2700 7425 50  0001 C CNN
+	1    2700 7425
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
