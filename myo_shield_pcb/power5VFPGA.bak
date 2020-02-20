@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L board-rescue:MAX17632-custom MAX?
+L myo_shield_pcb-rescue:MAX17632-custom-board-rescue MAX?
 U 1 1 5D889306
 P 5125 3225
 AR Path="/5D889306" Ref="MAX?"  Part="1" 
