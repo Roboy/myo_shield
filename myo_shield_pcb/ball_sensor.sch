@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 14
+Sheet 8 19
 Title ""
 Date ""
 Rev ""
@@ -65,7 +65,7 @@ AR Path="/5E5085FA/5E4E9A20" Ref="J43"  Part="1"
 AR Path="/5E5085FF/5E4E9A20" Ref="J44"  Part="1" 
 AR Path="/5E508604/5E4E9A20" Ref="J?"  Part="1" 
 F 0 "J44" H 7853 4376 50  0000 L CNN
-F 1 "i2c_sensor0" H 7853 4285 50  0000 L CNN
+F 1 "i2c_sensor" H 7853 4285 50  0000 L CNN
 F 2 "custom_lib:TE-Connectivity_Micro-Match_connector_02x05_Pitch_1.27mm" H 7825 4400 50  0001 C CNN
 F 3 "~" H 7825 4400 50  0001 C CNN
 	1    7825 4400
