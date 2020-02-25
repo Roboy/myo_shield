@@ -22,7 +22,7 @@ U 1 1 5C0A95AE
 P 7025 2650
 F 0 "J19" H 7104 2642 50  0000 L CNN
 F 1 "FAN_FPGA" H 7104 2551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 7025 2650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7025 2650 50  0001 C CNN
 F 3 "~" H 7025 2650 50  0001 C CNN
 	1    7025 2650
 	1    0    0    -1  
@@ -2066,13 +2066,13 @@ Text Label 1175 4375 2    50   ~ 0
 icebus7_h_Rx
 Text Label 1175 4600 2    50   ~ 0
 icebus7_l_Tx
-Text Label 4050 2150 0    50   ~ 0
+Text Label 4050 2350 0    50   ~ 0
 icebus6_rx
-Text Label 3550 2150 2    50   ~ 0
+Text Label 3550 2350 2    50   ~ 0
 icebus6_tx
-Text Label 4050 2050 0    50   ~ 0
+Text Label 4050 2150 0    50   ~ 0
 icebus7_rx
-Text Label 3550 2050 2    50   ~ 0
+Text Label 3550 2150 2    50   ~ 0
 icebus7_tx
 $Sheet
 S 5950 7200 600  375 
@@ -2101,4 +2101,6 @@ Text Label 4275 6375 3    50   ~ 0
 5V_control
 Text Label 4050 1750 0    50   ~ 0
 12V_control
+Text Label 3550 1750 2    50   ~ 0
+5V_control
 $EndSCHEMATC

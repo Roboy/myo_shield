@@ -2066,13 +2066,13 @@ Text Label 1175 4375 2    50   ~ 0
 icebus7_h_Rx
 Text Label 1175 4600 2    50   ~ 0
 icebus7_l_Tx
-Text Label 4050 2150 0    50   ~ 0
+Text Label 4050 2350 0    50   ~ 0
 icebus6_rx
-Text Label 3550 2150 2    50   ~ 0
+Text Label 3550 2350 2    50   ~ 0
 icebus6_tx
-Text Label 4050 2050 0    50   ~ 0
+Text Label 4050 2150 0    50   ~ 0
 icebus7_rx
-Text Label 3550 2050 2    50   ~ 0
+Text Label 3550 2150 2    50   ~ 0
 icebus7_tx
 $Sheet
 S 5950 7200 600  375 
@@ -2101,4 +2101,6 @@ Text Label 4275 6375 3    50   ~ 0
 5V_control
 Text Label 4050 1750 0    50   ~ 0
 12V_control
+Text Label 3550 1750 2    50   ~ 0
+5V_control
 $EndSCHEMATC
