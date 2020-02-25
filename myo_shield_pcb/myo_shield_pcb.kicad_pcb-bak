@@ -564,12 +564,12 @@
     (add_net GND)
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5E5DE4F8)
+  (module Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical (layer F.Cu) (tedit 5E55340C) (tstamp 5E5DE4F8)
     (at 134.75 105.99 180)
     (descr "Through hole straight pin header, 2x06, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x06 2.54mm double row")
     (path /5E50BD4A)
-    (fp_text reference J11 (at 1.27 -2.33 180) (layer F.SilkS)
+    (fp_text reference J11 (at 1.27 -2.33 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value FANS (at 1.27 15.03 180) (layer F.Fab)
@@ -2466,11 +2466,11 @@
       (net 77 +12V))
   )
 
-  (module AON7804:DFN3X3 (layer F.Cu) (tedit 0) (tstamp 5E636D95)
+  (module AON7804:DFN3X3 (layer F.Cu) (tedit 5E553408) (tstamp 5E636D95)
     (at 139.45 105.99 90)
     (path /5E5C9A46)
     (attr smd)
-    (fp_text reference Q1 (at -2.20822 0.08093 180) (layer F.SilkS)
+    (fp_text reference Q1 (at -2.20822 0.08093 180) (layer F.SilkS) hide
       (effects (font (size 0.480744 0.480744) (thickness 0.05)))
     )
     (fp_text value AON7804 (at 0 0 90) (layer F.SilkS)
@@ -2499,11 +2499,11 @@
       (net 70 +24V))
   )
 
-  (module AON7804:DFN3X3 (layer F.Cu) (tedit 0) (tstamp 5E636DA6)
+  (module AON7804:DFN3X3 (layer F.Cu) (tedit 5E553410) (tstamp 5E636DA6)
     (at 139.45 99.99 90)
     (path /5E5CA382)
     (attr smd)
-    (fp_text reference Q2 (at -2.20822 0.08093 180) (layer F.SilkS)
+    (fp_text reference Q2 (at -2.20822 0.08093 180) (layer F.SilkS) hide
       (effects (font (size 0.480744 0.480744) (thickness 0.05)))
     )
     (fp_text value AON7804 (at 0 0 90) (layer F.SilkS)
@@ -2532,11 +2532,11 @@
       (net 70 +24V))
   )
 
-  (module AON7804:DFN3X3 (layer F.Cu) (tedit 0) (tstamp 5E636DB7)
+  (module AON7804:DFN3X3 (layer F.Cu) (tedit 5E553415) (tstamp 5E636DB7)
     (at 139.45 93.99 90)
     (path /5E5D4216)
     (attr smd)
-    (fp_text reference Q3 (at -2.20822 0.08093 180) (layer F.SilkS)
+    (fp_text reference Q3 (at -2.20822 0.08093 180) (layer F.SilkS) hide
       (effects (font (size 0.480744 0.480744) (thickness 0.05)))
     )
     (fp_text value AON7804 (at 0 0 90) (layer F.SilkS)
@@ -3405,11 +3405,11 @@
       (net 206 /5V_out))
   )
 
-  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E4D5A6A) (tstamp 5E636F55)
+  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E5533F4) (tstamp 5E636F55)
     (at 133.35 115.57 180)
     (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
     (path /5E572DD7)
-    (fp_text reference U9 (at -5.59018 0.63523) (layer F.SilkS)
+    (fp_text reference U9 (at -5.59018 0.63523) (layer F.SilkS) hide
       (effects (font (size 0.800315 0.800315) (thickness 0.015)))
     )
     (fp_text value H11L1 (at 5.214045 -0.89019) (layer F.Fab)
@@ -3443,11 +3443,11 @@
       (net 78 "Net-(R7-Pad2)"))
   )
 
-  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E4D5A6A) (tstamp 5E636F6D)
+  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E5533EF) (tstamp 5E636F6D)
     (at 142.875 115.57 180)
     (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
     (path /5E5B13A0)
-    (fp_text reference U10 (at -5.59018 0.63523) (layer F.SilkS)
+    (fp_text reference U10 (at -5.59018 0.63523) (layer F.SilkS) hide
       (effects (font (size 0.800315 0.800315) (thickness 0.015)))
     )
     (fp_text value H11L1 (at 5.214045 -0.89019) (layer F.Fab)
@@ -3481,11 +3481,11 @@
       (net 4 +3V3))
   )
 
-  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E4D5A6A) (tstamp 5E636F85)
+  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E5533FD) (tstamp 5E636F85)
     (at 152.4 115.57 180)
     (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
     (path /5E5B248F)
-    (fp_text reference U11 (at -5.59018 0.63523) (layer F.SilkS)
+    (fp_text reference U11 (at -5.59018 0.63523) (layer F.SilkS) hide
       (effects (font (size 0.800315 0.800315) (thickness 0.015)))
     )
     (fp_text value H11L1 (at 5.214045 -0.89019) (layer F.Fab)
@@ -3519,11 +3519,11 @@
       (net 80 "Net-(R9-Pad2)"))
   )
 
-  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E4D5A6A) (tstamp 5E636F9D)
+  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E5533E8) (tstamp 5E636F9D)
     (at 133.35 127.635 180)
     (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
     (path /5E57BF84)
-    (fp_text reference U12 (at -5.59018 0.63523) (layer F.SilkS)
+    (fp_text reference U12 (at -5.59018 0.63523) (layer F.SilkS) hide
       (effects (font (size 0.800315 0.800315) (thickness 0.015)))
     )
     (fp_text value H11L1 (at 5.214045 -0.89019) (layer F.Fab)
@@ -3557,11 +3557,11 @@
       (net 4 +3V3))
   )
 
-  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E4D5A6A) (tstamp 5E636FB5)
+  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E5533E5) (tstamp 5E636FB5)
     (at 142.875 127.635 180)
     (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
     (path /5E5B13C0)
-    (fp_text reference U13 (at -5.59018 0.63523) (layer F.SilkS)
+    (fp_text reference U13 (at -5.59018 0.63523) (layer F.SilkS) hide
       (effects (font (size 0.800315 0.800315) (thickness 0.015)))
     )
     (fp_text value H11L1 (at 5.214045 -0.89019) (layer F.Fab)
@@ -3595,11 +3595,11 @@
       (net 4 +3V3))
   )
 
-  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E4D5A6A) (tstamp 5E636FCD)
+  (module custom_lib:DIL6-SMD (layer F.Cu) (tedit 5E5533F8) (tstamp 5E636FCD)
     (at 152.4 127.635 180)
     (descr "<b>DIL 6 SMD</b><p>Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html")
     (path /5E5B24AF)
-    (fp_text reference U14 (at -5.59018 0.63523) (layer F.SilkS)
+    (fp_text reference U14 (at -5.59018 0.63523) (layer F.SilkS) hide
       (effects (font (size 0.800315 0.800315) (thickness 0.015)))
     )
     (fp_text value H11L1 (at 5.214045 -0.89019) (layer F.Fab)
@@ -6394,11 +6394,11 @@
     )
   )
 
-  (module AON7804:DFN3X3 (layer F.Cu) (tedit 0) (tstamp 5E5E1592)
+  (module AON7804:DFN3X3 (layer F.Cu) (tedit 5E553403) (tstamp 5E5E1592)
     (at 148 107 90)
     (path /5E51A87F)
     (attr smd)
-    (fp_text reference Q4 (at -2.20822 0.08093 180) (layer F.SilkS)
+    (fp_text reference Q4 (at -2.20822 0.08093 180) (layer F.SilkS) hide
       (effects (font (size 0.480744 0.480744) (thickness 0.05)))
     )
     (fp_text value AON7804 (at 0 0 90) (layer F.SilkS)
