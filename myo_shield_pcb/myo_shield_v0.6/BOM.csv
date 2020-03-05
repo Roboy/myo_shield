@@ -1,0 +1,23 @@
+Id,Designator,Package,Quantity,Price per unit,Designation,Supplier and ref
+1,F1,C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,1,0.98 €,Fuse,https://www.mouser.de/ProductDetail/Bel-Fuse/0685P9250-01?qs=%2Fha2pyFaduj%2FJSdy1SA97vXg8hWUBeQS7yqbN5oa5D2Dq5NYg%2FWmBA%3D%3D
+3,"Co31,Co30,Co29,Co28,Co27,Co26,Co25",C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,7,0.14 €,10uF,https://www.mouser.de/ProductDetail/TDK/CGA4J1X7S1C106K125AE?qs=sGAEpiMZZMs0AnBnWHyRQOuo8k2TOK6lFFg%252BAxP3CBgvDqwYrxRaZw%3D%3D
+7,"C2,C1,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12,C16,C18,C19,C20,C21,C22,C23",C_0402_1005Metric,19,0.01 €,0.1uF,
+9,"U1,U2,U3,U4,U5,U6,U24,U25",ltc2855,8,2.46 €,LTC2855CDEPBF,https://www.mouser.de/ProductDetail/Analog-Devices-Linear-Technology/LTC2855CDEPBF?qs=sGAEpiMZZMuXae9YOZoWdwZKRtw0vP0LLcEh6PNrP%2Fu2LcrRYdx9hg%3D%3D
+18,"J31,J30,J25,J26,J27,J28,J29",Wago_2060_2_SMD,7,0.67 €,12V,https://www.reichelt.com/de/en/smd-pcb-terminal-2-pole-rm-4-mm-white-wago-2060-452-p163243.html?&trstct=vrt_pdn
+19,"Q1,Q2,Q3,Q4",DFN3X3,4,0.31 €,AON7804,https://www.digikey.de/product-detail/en/AON7804/785-1586-1-ND/3621489?utm_campaign=buynow&WT.z_cid=ref_octopart_dkc_buynow&utm_medium=aggregator&curr=eur&site=us&utm_source=octopart
+20,"R1,R2,R3,R4,R5,R6",R_0402_1005Metric,6,0.01 €,660,
+21,"R7,R8,R9,R14,R15,R16",R_0402_1005Metric,6,0.01 €,10k,
+22,"R10,R11,R12,R13,R17,R18,R19,R20",R_0402_1005Metric,8,0.01 €,1k,
+23,"RV1,RV2",Potentiometer_Bourns_3214X_Vertical,2,2.94 €,R_POT,https://www.digikey.de/product-detail/en/3214X-1-203E/3214X-1-203ECT-ND/1817663/?itemSeq=318193730
+25,"U9,U10,U11,U12,U13,U14",DIL6-SMD,6,0.48 €,H11L1,https://www.digikey.de/product-detail/en/H11L1S(TA)/1080-1201-1-ND/2675935/?itemSeq=318199063
+26,"J32,J33",Wago_2060_3_SMD,2,0.59 €,GND,https://www.reichelt.com/de/en/smd-pcb-terminal-3-pole-rm-4-mm-white-wago-2060-453-p163244.html?&trstct=vrt_pdn&nbc=1
+27,"R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R61,R62,R63,R64,R65,R66,R67,R68,R69,R70,R71,R72,R73,R74,R75,R76",R_0402_1005Metric,56,0.01 €,1k,
+28,"U15,U16,U17,U18,U19,U20,U21",SOP65P640X120-16N,7,1.03 €,TCA9546APWR,https://www.digikey.de/product-detail/en/TCA9546APWR/296-40578-1-ND/5178455/?itemSeq=318206794
+30,"C13,C14",C_0603_1608Metric,2,0.15 €,2.2uF,https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188R6YA225MA12D?qs=sGAEpiMZZMukHu%252BjC5l7YbA1Uz8mFEbwM%2FG9yF14ldE%3D
+31,C15,C_0402_1005Metric,1,0.01 €,5600pF,
+32,C17,C_0805_2012Metric,1,0.86 €,22uF,https://www.mouser.de/ProductDetail/Murata-Electronics/GRM32ER71A226KE20L?qs=sGAEpiMZZMs0AnBnWHyRQEWjzA2rN6H9zv8Umvh1o1M%3D
+33,L1,XAL5050-103MEC,1,2.49 €,10uH,https://www.mouser.de/ProductDetail/Coilcraft/XAL5050-103MEC?qs=sGAEpiMZZMsg%252By3WlYCkU2kWFds1hA9DT8Bo6GoKcU0%3D
+34,MAX1,QFN-16-1EP_3x3mm_Pitch0.5mm,1,1.91 €,MAX17632,https://www.mouser.de/ProductDetail/Maxim-Integrated/MAX17632BATE%2b?qs=sGAEpiMZZMtitjHzVIkrqZzDzZChF5ZsVMXMK5D%252BJoTOEFN9wHWeIg%3D%3D
+37,"U22,U23",TLI4970,2,6.64 €,TLI4970,https://www.mouser.de/ProductDetail/Infineon-Technologies/TLI4970D025T5XUMA1?qs=sGAEpiMZZMsPYxdnOoPGek3bIquI0SC81TDQvBpkH3hDeJNB%252Ba1Lcg%3D%3D
+,,,total no parts:,Total price:,,
+,,,147,64.51 €,,
