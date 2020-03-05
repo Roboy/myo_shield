@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:myo_shield_pcb-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -726,7 +725,6 @@ F 3 "" H 6750 4700 50  0001 C CNN
 	1    6750 4700
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 5125 5075
 $Comp
 L Device:R_POT RV1
 U 1 1 5E54D7FD
@@ -798,7 +796,6 @@ F 3 "" H 6750 5800 50  0001 C CNN
 	1    6750 5800
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 5125 6175
 $Comp
 L power:GND #PWR0194
 U 1 1 5E554E89
@@ -2103,4 +2100,10 @@ Text Label 4050 1750 0    50   ~ 0
 12V_control
 Text Label 3550 1750 2    50   ~ 0
 5V_control
+Text Label 5075 5075 2    50   ~ 0
+12V_out
+Wire Wire Line
+	5075 5075 5125 5075
+Text Label 5125 6175 2    50   ~ 0
+5V_out
 $EndSCHEMATC
