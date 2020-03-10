@@ -22,7 +22,7 @@ U 1 1 5C0A95AE
 P 7025 2650
 F 0 "J19" H 7104 2642 50  0000 L CNN
 F 1 "FAN_FPGA" H 7104 2551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 7025 2650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7025 2650 50  0001 C CNN
 F 3 "~" H 7025 2650 50  0001 C CNN
 	1    7025 2650
 	1    0    0    -1  
@@ -726,7 +726,6 @@ F 3 "" H 6750 4700 50  0001 C CNN
 	1    6750 4700
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 5125 5075
 $Comp
 L Device:R_POT RV1
 U 1 1 5E54D7FD
@@ -798,7 +797,6 @@ F 3 "" H 6750 5800 50  0001 C CNN
 	1    6750 5800
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 5125 6175
 $Comp
 L power:GND #PWR0194
 U 1 1 5E554E89
@@ -1254,168 +1252,106 @@ power_sense_5
 $Comp
 L AON7804:AON7804 Q1
 U 1 1 5E5C9A46
-P 1100 7300
-F 0 "Q1" H 1307 7300 50  0000 L CNN
-F 1 "AON7804" H 1100 7300 50  0001 L BNN
-F 2 "AON7804:DFN3X3" H 1100 7300 50  0001 L BNN
-F 3 "Unavailable" H 1100 7300 50  0001 L BNN
-F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 1100 7300 50  0001 L BNN "Field4"
-F 5 "Alpha &" H 1100 7300 50  0001 L BNN "Field5"
-F 6 "None" H 1100 7300 50  0001 L BNN "Field6"
-F 7 "AON7804" H 1100 7300 50  0001 L BNN "Field7"
-F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 1100 7300 50  0001 L BNN "Field8"
-	1    1100 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L AON7804:AON7804 Q1
-U 2 1 5E5C9DE7
-P 1975 7300
-F 0 "Q1" H 2183 7300 50  0000 L CNN
-F 1 "AON7804" H 1975 7300 50  0001 L BNN
-F 2 "AON7804:DFN3X3" H 1975 7300 50  0001 L BNN
-F 3 "Unavailable" H 1975 7300 50  0001 L BNN
-F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 1975 7300 50  0001 L BNN "Field4"
-F 5 "Alpha &" H 1975 7300 50  0001 L BNN "Field5"
-F 6 "None" H 1975 7300 50  0001 L BNN "Field6"
-F 7 "AON7804" H 1975 7300 50  0001 L BNN "Field7"
-F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 1975 7300 50  0001 L BNN "Field8"
-	2    1975 7300
+P 1125 7375
+F 0 "Q1" H 1332 7375 50  0000 L CNN
+F 1 "AON7804" H 1125 7375 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 1125 7375 50  0001 L BNN
+F 3 "Unavailable" H 1125 7375 50  0001 L BNN
+F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 1125 7375 50  0001 L BNN "Field4"
+F 5 "Alpha &" H 1125 7375 50  0001 L BNN "Field5"
+F 6 "None" H 1125 7375 50  0001 L BNN "Field6"
+F 7 "AON7804" H 1125 7375 50  0001 L BNN "Field7"
+F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 1125 7375 50  0001 L BNN "Field8"
+	1    1125 7375
 	1    0    0    -1  
 $EndComp
 $Comp
 L AON7804:AON7804 Q2
 U 1 1 5E5CA382
-P 2850 7300
-F 0 "Q2" H 3057 7300 50  0000 L CNN
-F 1 "AON7804" H 2850 7300 50  0001 L BNN
-F 2 "AON7804:DFN3X3" H 2850 7300 50  0001 L BNN
-F 3 "Unavailable" H 2850 7300 50  0001 L BNN
-F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 2850 7300 50  0001 L BNN "Field4"
-F 5 "Alpha &" H 2850 7300 50  0001 L BNN "Field5"
-F 6 "None" H 2850 7300 50  0001 L BNN "Field6"
-F 7 "AON7804" H 2850 7300 50  0001 L BNN "Field7"
-F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 2850 7300 50  0001 L BNN "Field8"
-	1    2850 7300
+P 2875 7375
+F 0 "Q2" H 3082 7375 50  0000 L CNN
+F 1 "AON7804" H 2875 7375 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 2875 7375 50  0001 L BNN
+F 3 "Unavailable" H 2875 7375 50  0001 L BNN
+F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 2875 7375 50  0001 L BNN "Field4"
+F 5 "Alpha &" H 2875 7375 50  0001 L BNN "Field5"
+F 6 "None" H 2875 7375 50  0001 L BNN "Field6"
+F 7 "AON7804" H 2875 7375 50  0001 L BNN "Field7"
+F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 2875 7375 50  0001 L BNN "Field8"
+	1    2875 7375
 	1    0    0    -1  
 $EndComp
 $Comp
 L AON7804:AON7804 Q2
 U 2 1 5E5CA38D
-P 3725 7300
-F 0 "Q2" H 3933 7300 50  0000 L CNN
-F 1 "AON7804" H 3725 7300 50  0001 L BNN
-F 2 "AON7804:DFN3X3" H 3725 7300 50  0001 L BNN
-F 3 "Unavailable" H 3725 7300 50  0001 L BNN
-F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 3725 7300 50  0001 L BNN "Field4"
-F 5 "Alpha &" H 3725 7300 50  0001 L BNN "Field5"
-F 6 "None" H 3725 7300 50  0001 L BNN "Field6"
-F 7 "AON7804" H 3725 7300 50  0001 L BNN "Field7"
-F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 3725 7300 50  0001 L BNN "Field8"
-	2    3725 7300
+P 3750 7375
+F 0 "Q2" H 3958 7375 50  0000 L CNN
+F 1 "AON7804" H 3750 7375 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 3750 7375 50  0001 L BNN
+F 3 "Unavailable" H 3750 7375 50  0001 L BNN
+F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 3750 7375 50  0001 L BNN "Field4"
+F 5 "Alpha &" H 3750 7375 50  0001 L BNN "Field5"
+F 6 "None" H 3750 7375 50  0001 L BNN "Field6"
+F 7 "AON7804" H 3750 7375 50  0001 L BNN "Field7"
+F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 3750 7375 50  0001 L BNN "Field8"
+	2    3750 7375
 	1    0    0    -1  
 $EndComp
 $Comp
 L AON7804:AON7804 Q3
 U 1 1 5E5D4216
-P 4600 7300
-F 0 "Q3" H 4807 7300 50  0000 L CNN
-F 1 "AON7804" H 4600 7300 50  0001 L BNN
-F 2 "AON7804:DFN3X3" H 4600 7300 50  0001 L BNN
-F 3 "Unavailable" H 4600 7300 50  0001 L BNN
-F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 4600 7300 50  0001 L BNN "Field4"
-F 5 "Alpha &" H 4600 7300 50  0001 L BNN "Field5"
-F 6 "None" H 4600 7300 50  0001 L BNN "Field6"
-F 7 "AON7804" H 4600 7300 50  0001 L BNN "Field7"
-F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 4600 7300 50  0001 L BNN "Field8"
-	1    4600 7300
+P 4625 7375
+F 0 "Q3" H 4832 7375 50  0000 L CNN
+F 1 "AON7804" H 4625 7375 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 4625 7375 50  0001 L BNN
+F 3 "Unavailable" H 4625 7375 50  0001 L BNN
+F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 4625 7375 50  0001 L BNN "Field4"
+F 5 "Alpha &" H 4625 7375 50  0001 L BNN "Field5"
+F 6 "None" H 4625 7375 50  0001 L BNN "Field6"
+F 7 "AON7804" H 4625 7375 50  0001 L BNN "Field7"
+F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 4625 7375 50  0001 L BNN "Field8"
+	1    4625 7375
 	1    0    0    -1  
 $EndComp
 $Comp
 L AON7804:AON7804 Q3
 U 2 1 5E5D4221
-P 5475 7300
-F 0 "Q3" H 5683 7300 50  0000 L CNN
-F 1 "AON7804" H 5475 7300 50  0001 L BNN
-F 2 "AON7804:DFN3X3" H 5475 7300 50  0001 L BNN
-F 3 "Unavailable" H 5475 7300 50  0001 L BNN
-F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 5475 7300 50  0001 L BNN "Field4"
-F 5 "Alpha &" H 5475 7300 50  0001 L BNN "Field5"
-F 6 "None" H 5475 7300 50  0001 L BNN "Field6"
-F 7 "AON7804" H 5475 7300 50  0001 L BNN "Field7"
-F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 5475 7300 50  0001 L BNN "Field8"
-	2    5475 7300
+P 5500 7375
+F 0 "Q3" H 5708 7375 50  0000 L CNN
+F 1 "AON7804" H 5500 7375 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 5500 7375 50  0001 L BNN
+F 3 "Unavailable" H 5500 7375 50  0001 L BNN
+F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 5500 7375 50  0001 L BNN "Field4"
+F 5 "Alpha &" H 5500 7375 50  0001 L BNN "Field5"
+F 6 "None" H 5500 7375 50  0001 L BNN "Field6"
+F 7 "AON7804" H 5500 7375 50  0001 L BNN "Field7"
+F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 5500 7375 50  0001 L BNN "Field8"
+	2    5500 7375
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+24V #PWR0236
 U 1 1 5E5DD3F0
-P 875 7000
-F 0 "#PWR0236" H 875 6850 50  0001 C CNN
-F 1 "+24V" V 890 7128 50  0000 L CNN
-F 2 "" H 875 7000 50  0001 C CNN
-F 3 "" H 875 7000 50  0001 C CNN
-	1    875  7000
+P 975 4900
+F 0 "#PWR0236" H 975 4750 50  0001 C CNN
+F 1 "+24V" V 990 5028 50  0000 L CNN
+F 2 "" H 975 4900 50  0001 C CNN
+F 3 "" H 975 4900 50  0001 C CNN
+	1    975  4900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	875  7000 1200 7000
-Wire Wire Line
-	5575 7000 5575 7100
-Connection ~ 5575 7000
-Connection ~ 1200 7000
-Wire Wire Line
-	1200 7000 2075 7000
-Connection ~ 2075 7000
-Wire Wire Line
-	2075 7000 2950 7000
-Connection ~ 2950 7000
-Wire Wire Line
-	2950 7000 3825 7000
-Connection ~ 3825 7000
-Wire Wire Line
-	3825 7000 4700 7000
-Connection ~ 4700 7000
-Wire Wire Line
-	4700 7000 5575 7000
-Wire Wire Line
-	5575 7100 4700 7100
-Connection ~ 5575 7100
-Connection ~ 2075 7100
-Wire Wire Line
-	2075 7100 1200 7100
-Connection ~ 2950 7100
-Wire Wire Line
-	2950 7100 2075 7100
-Connection ~ 3825 7100
-Wire Wire Line
-	3825 7100 2950 7100
-Connection ~ 4700 7100
-Wire Wire Line
-	4700 7100 3825 7100
-Text Label 900  7400 2    50   ~ 0
+Text Label 925  7475 2    50   ~ 0
 fan0_pwm
-Text Label 1775 7400 2    50   ~ 0
+Text Label 1800 7475 2    50   ~ 0
 fan1_pwm
-Text Label 2650 7400 2    50   ~ 0
+Text Label 2675 7475 2    50   ~ 0
 fan2_pwm
-Text Label 3525 7400 2    50   ~ 0
+Text Label 3550 7475 2    50   ~ 0
 fan3_pwm
-Text Label 4400 7400 2    50   ~ 0
+Text Label 4425 7475 2    50   ~ 0
 fan4_pwm
-Text Label 5275 7400 2    50   ~ 0
+Text Label 5300 7475 2    50   ~ 0
 fan5_pwm
-$Comp
-L power:GND #PWR0237
-U 1 1 5E5E305A
-P 3250 5775
-F 0 "#PWR0237" H 3250 5525 50  0001 C CNN
-F 1 "GND" V 3255 5647 50  0000 R CNN
-F 2 "" H 3250 5775 50  0001 C CNN
-F 3 "" H 3250 5775 50  0001 C CNN
-	1    3250 5775
-	0    1    1    0   
-$EndComp
 $Sheet
 S 7200 800  800  375 
 U 5E4E776F
@@ -1665,52 +1601,38 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x12_Male J11
 U 1 1 5E50BD4A
-P 3750 6375
-F 0 "J11" H 3723 6255 50  0000 R CNN
-F 1 "FANS" H 3723 6346 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 3750 6375 50  0001 C CNN
-F 3 "~" H 3750 6375 50  0001 C CNN
-	1    3750 6375
+P 1475 5500
+F 0 "J11" H 1448 5380 50  0000 R CNN
+F 1 "FANS" H 1448 5471 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 1475 5500 50  0001 C CNN
+F 3 "~" H 1475 5500 50  0001 C CNN
+	1    1475 5500
 	-1   0    0    1   
 $EndComp
-Text Label 1200 7600 3    50   ~ 0
+Text Label 1225 7075 1    50   ~ 0
 FAN0
-Text Label 2075 7600 3    50   ~ 0
+Text Label 2100 7075 1    50   ~ 0
 FAN1
-Text Label 2950 7600 3    50   ~ 0
+Text Label 2975 7075 1    50   ~ 0
 FAN2
-Text Label 3825 7600 3    50   ~ 0
+Text Label 3850 7075 1    50   ~ 0
 FAN3
-Text Label 4700 7600 3    50   ~ 0
+Text Label 4725 7075 1    50   ~ 0
 FAN4
-Text Label 5575 7600 3    50   ~ 0
+Text Label 5600 7075 1    50   ~ 0
 FAN5
-Text Label 3550 6875 2    50   ~ 0
+Text Label 1275 6000 2    50   ~ 0
 FAN0
-Text Label 3550 6675 2    50   ~ 0
+Text Label 1275 5800 2    50   ~ 0
 FAN1
-Text Label 3550 6475 2    50   ~ 0
+Text Label 1275 5600 2    50   ~ 0
 FAN2
-Text Label 3550 6275 2    50   ~ 0
+Text Label 1275 5400 2    50   ~ 0
 FAN3
-Text Label 3550 6075 2    50   ~ 0
+Text Label 1275 5200 2    50   ~ 0
 FAN4
-Text Label 3550 5875 2    50   ~ 0
+Text Label 1275 5000 2    50   ~ 0
 FAN5
-Wire Wire Line
-	3550 5775 3300 5775
-Wire Wire Line
-	3300 5975 3550 5975
-Wire Wire Line
-	3300 5775 3250 5775
-Wire Wire Line
-	3300 6175 3550 6175
-Wire Wire Line
-	3550 6375 3300 6375
-Wire Wire Line
-	3550 6575 3300 6575
-Wire Wire Line
-	3550 6775 3300 6775
 $Comp
 L AON7804:AON7804 Q4
 U 2 1 5E51A87F
@@ -2080,21 +2002,6 @@ U 5E528B34
 F0 "Sheet5E528B33" 50
 F1 "power_connectors.sch" 50
 $EndSheet
-Connection ~ 3300 6575
-Wire Wire Line
-	3300 6775 3300 6575
-Connection ~ 3300 6375
-Connection ~ 3300 6175
-Wire Wire Line
-	3300 6575 3300 6375
-Wire Wire Line
-	3300 6375 3300 6175
-Connection ~ 3300 5975
-Connection ~ 3300 5775
-Wire Wire Line
-	3300 6175 3300 5975
-Wire Wire Line
-	3300 5775 3300 5975
 Text Label 4250 5275 3    50   ~ 0
 12V_control
 Text Label 4275 6375 3    50   ~ 0
@@ -2103,4 +2010,95 @@ Text Label 4050 1750 0    50   ~ 0
 12V_control
 Text Label 3550 1750 2    50   ~ 0
 5V_control
+Text Label 5075 5075 2    50   ~ 0
+12V_out
+Wire Wire Line
+	5075 5075 5125 5075
+Text Label 5125 6175 2    50   ~ 0
+5V_out
+$Comp
+L AON7804:AON7804 Q1
+U 2 1 5E5C9DE7
+P 2000 7375
+F 0 "Q1" H 2208 7375 50  0000 L CNN
+F 1 "AON7804" H 2000 7375 50  0001 L BNN
+F 2 "AON7804:DFN3X3" H 2000 7375 50  0001 L BNN
+F 3 "Unavailable" H 2000 7375 50  0001 L BNN
+F 4 "Mosfet 2n-Ch 30v 9a 8dfn" H 2000 7375 50  0001 L BNN "Field4"
+F 5 "Alpha &" H 2000 7375 50  0001 L BNN "Field5"
+F 6 "None" H 2000 7375 50  0001 L BNN "Field6"
+F 7 "AON7804" H 2000 7375 50  0001 L BNN "Field7"
+F 8 "DFN-8 Alpha &amp; Omega Semiconductor" H 2000 7375 50  0001 L BNN "Field8"
+	2    2000 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E67F173
+P 925 7675
+F 0 "#PWR?" H 925 7425 50  0001 C CNN
+F 1 "GND" V 930 7547 50  0000 R CNN
+F 2 "" H 925 7675 50  0001 C CNN
+F 3 "" H 925 7675 50  0001 C CNN
+	1    925  7675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 7675 4725 7675
+Connection ~ 1225 7675
+Wire Wire Line
+	1225 7675 925  7675
+Connection ~ 2100 7675
+Wire Wire Line
+	2100 7675 1225 7675
+Connection ~ 2975 7675
+Wire Wire Line
+	2975 7675 2100 7675
+Connection ~ 3850 7675
+Wire Wire Line
+	3850 7675 2975 7675
+Connection ~ 4725 7675
+Wire Wire Line
+	4725 7675 3850 7675
+Wire Wire Line
+	5600 7075 5600 7175
+Wire Wire Line
+	4725 7175 4725 7075
+Wire Wire Line
+	3850 7175 3850 7075
+Wire Wire Line
+	2975 7175 2975 7075
+Wire Wire Line
+	2100 7175 2100 7075
+Wire Wire Line
+	1225 7175 1225 7075
+Wire Wire Line
+	1275 5900 1025 5900
+Wire Wire Line
+	1025 5900 1025 5700
+Connection ~ 1025 5700
+Wire Wire Line
+	1275 5700 1025 5700
+Wire Wire Line
+	1025 5700 1025 5500
+Connection ~ 1025 5500
+Wire Wire Line
+	1275 5500 1025 5500
+Wire Wire Line
+	1025 5500 1025 5300
+Connection ~ 1025 5300
+Wire Wire Line
+	1025 5300 1275 5300
+Wire Wire Line
+	1025 4900 975  4900
+Wire Wire Line
+	1025 4900 1025 5100
+Wire Wire Line
+	1025 5300 1025 5100
+Connection ~ 1025 5100
+Wire Wire Line
+	1025 5100 1275 5100
+Connection ~ 1025 4900
+Wire Wire Line
+	1275 4900 1025 4900
 $EndSCHEMATC
